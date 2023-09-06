@@ -5,6 +5,7 @@ import headerPromotion from '../public/images/headerPromotion.svg';
 import teengergirl from '../public/images/teengerGirl.svg';
 import Image from "next/image";
 import Success from "./components/success/Success";
+import CloudSoftware from "./components/cloudSoftware/CloudSoftware";
 
 
 export default function Home() {
@@ -50,6 +51,8 @@ export default function Home() {
       </header>
       {/* Our Success */}
       <Success/>
+      {/* All in One Cloud Software */}
+      <CloudSoftware/>
     </>
   )
 }
