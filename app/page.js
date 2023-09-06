@@ -6,6 +6,9 @@ import teengergirl from '../public/images/teengerGirl.svg';
 import Image from "next/image";
 import Success from "./components/success/Success";
 import CloudSoftware from "./components/cloudSoftware/CloudSoftware";
+import Totc from "./components/totc/Totc";
+import OurFeatures from "./components/ourFeatures/OurFeatures";
+import Footer from "./components/footer/Footer";
 
 
 export default function Home() {
@@ -53,6 +56,13 @@ export default function Home() {
       <Success/>
       {/* All in One Cloud Software */}
       <CloudSoftware/>
+      {/* What is TOTC */}
+      <Totc/>
+      {/* Our Features */}
+      <OurFeatures/>
+
+      {/* Footer */}
+      <Footer/>
     </>
   )
 }
