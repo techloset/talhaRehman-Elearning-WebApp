@@ -1,0 +1,69 @@
+import React from 'react'
+import Header from '../components/header.jsx/Header'
+import Footer from '../components/footer/Footer'
+import Image from 'next/image'
+import headerImg from '../../public/images/blogMain.svg'
+import read1 from '../../public/images/readblog1.svg'
+import read2 from '../../public/images/readblog2.svg'
+import read3 from '../../public/images/readblog3.svg'
+import read4 from '../../public/images/readblog4.svg'
+
+function page() {
+    const blog=[
+        {
+            id:1,
+            img: <Image src={read1} alt='blog' className='w-[22.25rem] h-[20.4375rem]'/>,
+            title:"UX/UI"
+        },
+        {
+            id:2,
+            img: <Image src={read2} alt='blog' className='w-[22.25rem] h-[20.4375rem]'/>,
+            title:"React"
+        },
+        {
+            id:3,
+            img: <Image src={read3} alt='blog' className='w-[22.25rem] h-[20.4375rem]'/>,
+            title:"PHP"
+        },
+        {
+            id:4,
+            img: <Image src={read4} alt='blog' className='w-[22.25rem] h-[20.4375rem]'/>,
+            title:"JavaScript"
+        }
+    ]
+  return (
+    <>
+    {/* Header */}
+    <Header/>
+    {/* main Section */}
+    <div className='bg-[#9DCCFF]/[0.2] flex '>
+        <div className='ml-[7.13rem] pt-[4.81rem] pb-[6.31rem]'>
+            <h2 className='text-2xl font-bold text-[#000]'>By Themadbrains in <span className='text-[#49BBBD]'>inspiration</span></h2>
+            <h1 className='text-[#2F327D] text-[2.75rem] font-semibold w-[41.875rem] mt-[1.5rem]'>Why Swift UI Should Be on the Radar of Every Mobile Developer</h1>
+            <p className='text-[1.5rem] text-[#696984] mt-[0.88rem] font-normal leading-[2.7rem] tracking-[0.03rem] w-[43rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempos Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+            <button className='text-[#fff] text-[1rem] font-bold w-[14.75rem] h-[3.9375rem] rounded-[0.75rem] bg-[#49BBBD] mt-[1.56rem]'>Start learning now</button>
+        </div>
+        <div className='ml-[11rem] mt-[4.37rem]'>
+           <Image src={headerImg}   alt='laptop'/>
+        </div>
+    </div>
+    {/* Reading blog List */}
+    <div className='mt-[5rem] ml-[6.87rem]'>
+        <h2 className='text-[1.875rem] font-bold text-[rgba(0, 0, 0, 0.80)]'>Reading blog list</h2>
+        <div className='mb-[5rem] mt-[1.62rem] flex'>
+         {blog.map((info)=>(   <div className='relative mr-[4.75rem]'>
+                {info.img}
+                <div className='w-[14.75rem] absolute h-[3.9375rem] rounded-[0.75rem] flex justify-center items-center bg-[#fff]/[0.70] top-[70%] left-[18%] z-50 text-[1.5rem] text-center font-bold text-[#000]'>{info.title}</div>
+            </div>
+            ))}
+        </div>
+    </div>
+    {/* Related Blog */}
+
+    {/* Footer */}
+    <Footer/>
+    </>
+  )
+}
+
+export default page

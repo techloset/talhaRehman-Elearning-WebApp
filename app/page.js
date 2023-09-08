@@ -25,12 +25,12 @@ export default function Home() {
               <li className="ml-20" >Home</li>
               <li className="ml-20" >Courses</li>
               <li className="ml-20" >Careers</li>
-              <li className="ml-20" >Blog</li>
+            <Link href="./blog">  <li className="ml-20" >Blog</li></Link>
               <li className="ml-20" >About Us</li>
             </ul>
             <div className="flex items-center  ml-[5.06rem] mr-[8.375rem] h-auto">
             <Link href="./login"><button className="text-[#5B5B5B] text-[1.375rem] font-medium tracking-[0.0275rem] w-40 h-[3.75rem] rounded-[5rem] shadow-[0px 20px 24px 0px rgba(0, 0, 0, 0.03)] bg-[#fff]">Login</button></Link>
-              <button className="text-[#FFFFFF] text-[1.375rem] font-medium tracking-[0.0275rem] w-40 h-[3.75rem] rounded-[5rem] shadow-[0px 20px 24px 0px rgba(0, 0, 0, 0.03)] bg-[rgba(255,255,255,0.30)] ml-[1.63rem]">Sign Up</button>
+             <Link href="./login/register"> <button className="text-[#FFFFFF] text-[1.375rem] font-medium tracking-[0.0275rem] w-40 h-[3.75rem] rounded-[5rem] shadow-[0px 20px 24px 0px rgba(0, 0, 0, 0.03)] bg-[rgba(255,255,255,0.30)] ml-[1.63rem]">Sign Up</button></Link>
             </div>
           </div>
         </nav>
