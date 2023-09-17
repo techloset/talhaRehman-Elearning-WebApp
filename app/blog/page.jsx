@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../components/header.jsx/Header'
+import Header from '../components/header/Header'
 import Footer from '../components/footer/Footer'
 import Image from 'next/image'
 import headerImg from '../../public/images/blogMain.svg'
