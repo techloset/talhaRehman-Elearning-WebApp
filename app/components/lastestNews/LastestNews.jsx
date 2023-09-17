@@ -32,7 +32,7 @@ function LastestNews() {
     ]
   return (
     <>
-    <div className=" text-center mt-36 mx-auto ">
+    <div className=" text-center mt-36 mx-auto xs:hidden ">
         <p className="text-[#2F327D] text-4xl   font-bold py-5">
           Latest News and Resources
         </p>
@@ -41,8 +41,8 @@ function LastestNews() {
         </p>
       </div>
 
-      <div className="grid grid-cols-12 py-5 gap-4 mx-4 2xl:ml-[12.5rem] mt-24 flex-col lg:flex-row pb-[8rem]">
-        <div class="col-span-12 xl:col-span-5">
+      <div className="grid grid-cols-12 xl:py-5 xl:gap-4 xl:mx-4 xs:hidden 2xl:ml-[12.5rem] lg:ml-[6rem] mt-24 flex-col lg:flex-row pb-[8rem]">
+        <div class="col-span-12 xl:col-span-5 mx-auto xl:mx-0">
             <Image src={LatestNewsBig} alt='News'/>
             <div className='mt-4'>
             <button className="bg-[#49BBBD] text-white text-xl py-2 px-4 rounded-full w-1/4">
@@ -63,7 +63,7 @@ function LastestNews() {
          
         </div>
 
-        <div className="cards col-span-12 xl:col-span-7 mt-8 mx-8 md:mx-0 md:mt-0">
+        <div className="cards col-span-12 xl:col-span-7 mt-8 xl:mx-8  md:mx-auto md:mt-28">
 
        {Cards.map((info)=>(<div className='flex gap-4 mb-5'>
                 <div className='relative'> 

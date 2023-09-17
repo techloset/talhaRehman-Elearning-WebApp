@@ -7,7 +7,7 @@ import star from '../../../public/images/testStart.svg'
 function Testimonial() {
     return (
         <>
-            <div className="flex flex-col xl:flex-row mx-5 justify-between lg:mx-[0px] mt-32 2xl:ps-[160px] 2xl:pe-[180px]">
+            <div className="flex flex-col xl:flex-row mx-5 justify-between lg:mx-[0px] mt-32 2xl:ps-[160px] 2xl:pe-[180px] xs:pb-20">
                 <div className="mx-5 lg:mx-16">
                     <div className="flex">
                         <img src="/images/line.png" alt="" className="py-4" />

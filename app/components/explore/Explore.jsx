@@ -10,7 +10,7 @@ import ribbon from '../../../public/images/ribbon-b.svg'
 function Explore() {
   return (
     <>
-    <div className='explore overflow-x-hidden'>
+    <div className='explore hidden 2xl:block overflow-x-hidden'>
      <div className=" h-full mx-4 sm:mx-6 xl:mx-[155px]">
         <h1 className="font-bold text-4xl mt-[12rem]">Explore Courses</h1>
         <p className="text-gray-600 mt-2">

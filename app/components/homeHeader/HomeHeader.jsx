@@ -14,8 +14,8 @@ function HomeHeader() {
     const [navbar, setNavbar] = useState(false);
   return (
    <>
-   <header className="header-bg  ">
-        <nav className="ml-[7.56rem] pt-[1.88rem] items-center justify-between lg:flex hidden ">
+   <header className="header-bg  overflow-x-hidden">
+        <nav className="2xl:ml-[7.56rem] lg:ml-16 pt-[1.88rem] items-center justify-between xl:flex hidden ">
           <div>
           <Link href="./"> <Image src={logo} alt="logo" width={100} height={100} /></Link>
           </div>
@@ -27,7 +27,7 @@ function HomeHeader() {
             <Link href="./blog">  <li className="ml-20" >Blog</li></Link>
               <li className="ml-20" >About Us</li>
             </ul>
-            <div className="flex items-center  ml-[5.06rem] mr-[8.375rem] h-auto">
+            <div className="flex items-center  ml-[5.06rem] 2xl:mr-[8.375rem] lg:mr-12 h-auto">
             <Link href="./login"><button className="text-[#5B5B5B] text-[1.375rem] font-medium tracking-[0.0275rem] w-40 h-[3.75rem] rounded-[5rem] shadow-[0px 20px 24px 0px rgba(0, 0, 0, 0.03)] bg-[#fff]">Login</button></Link>
              <Link href="./login/register"> <button className="text-[#FFFFFF] text-[1.375rem] font-medium tracking-[0.0275rem] w-40 h-[3.75rem] rounded-[5rem] shadow-[0px 20px 24px 0px rgba(0, 0, 0, 0.03)] bg-[rgba(255,255,255,0.30)] ml-[1.63rem]">Sign Up</button></Link>
             </div>
@@ -35,14 +35,14 @@ function HomeHeader() {
         </nav>
         {/* mobile */}
          {/* Mobile Nav Only */}
-         <nav className="w-full bg-[#fff] lg:hidden">
-        <div className="justify-between px-5 mx-auto xs:mt-[38px] lg:max-w-7xl lg:items-center lg:flex lg:px-8">
+         <nav className="w-full bg-[#fff] xl:hidden">
+        <div className="justify-between px-5 mx-auto xs:mt-[38px] xl:max-w-7xl xl:items-center xl:flex xl:px-8">
           <div>
-            <div className="flex items-center justify-between py-3 lg:py-5 lg:block">
-              <div className="logo lg:col-span-3 my-auto sm:col-span-6">
+            <div className="flex items-center justify-between py-3 lg:py-5 xl:block">
+              <div className="logo xl:col-span-3 my-auto sm:col-span-6">
                 <Image src={logo1} alt="Logo" />
               </div>
-              <div className="lg:hidden">
+              <div className="xl:hidden">
                 <button
                   className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
                   onClick={() => setNavbar(!navbar)}
@@ -71,10 +71,10 @@ function HomeHeader() {
           </div>
           <div>
             <div
-              className={`flex-1 justify-self-center pb-3 mt-8 lg:block lg:pb-0 lg:mt-0 ${navbar ? "block" : "hidden"
+              className={`flex-1 justify-self-center pb-3 mt-8 xl:block lg:pb-0 lg:mt-0 ${navbar ? "block" : "hidden"
                 }`}
             >
-              <ul className="items-center justify-center space-y-8 lg:flex lg:space-x-6 lg:space-y-0">
+              <ul className="items-center justify-center space-y-8 xl:flex xl:space-x-6 xl:space-y-0">
                 <li className="text-gray-600 hover:text-blue-600">
                 
                 Our team
@@ -95,7 +95,7 @@ function HomeHeader() {
           </div>
         </div>
       </nav>
-        <main className="pt-[15.06rem] ml-[8.75rem] grid grid-cols-2 pb-[23.69rem] ">
+        <main className="xl:pt-[15.06rem] pt-[7rem] 2xl:ml-[8.75rem] lg:ml-20 grid xl:grid-cols-2 grid-cols-1 justify-center pb-[23.69rem] ">
           <div>
             <h1 className="font-bold text-[3.375rem] leading-normal text-[#fff] w-[42.5625rem]"><span className="text-[#F48C06]">Studying</span> Online is now much easier</h1>
             <p className="text-[#fff] text-2xl font-normal leading-[2.4rem] w-[32.6875rem] mt-[2.12rem]">TOTC is an interesting platform that will teach you in more an interactive way</p>
@@ -107,8 +107,8 @@ function HomeHeader() {
               </div>
             </div>
           </div>
-          <div className="relative">
-            <Image src={headerPromotion} alt="Promotion" className="absolute top-0 -left-24 z-10"/>
+          <div className="relative flex justify-center">
+            <Image src={headerPromotion} alt="Promotion" className="absolute top-0 xl:-left-24 z-10"/>
             <Image src={teengergirl} alt="Promotion" className="absolute z-0 -top-[10.5rem] overflow-y-hidden"/>
 
           </div>
