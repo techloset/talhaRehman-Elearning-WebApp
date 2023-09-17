@@ -1,8 +1,8 @@
 import React from 'react'
 import Header from '../components/header/Header'
 import Image from 'next/image'
-import blogDetailMain from '../../public/images/blogDetailsMain.svg';
-import detailsprofile from '../../public/images/blogDetailsProfile.svg';
+import blogDetailMain from '@/public/images/blogDetailsMain.svg';
+import detailsprofile from '@/public/images/blogDetailsProfile.svg';
 import ReleatedArticle from '../components/relatedArticle/ReleatedArticle';
 import Footer from '../components/footer/Footer';
 
