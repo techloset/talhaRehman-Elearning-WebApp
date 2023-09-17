@@ -7,6 +7,7 @@ function page() {
     <>
     <Header/>
     <CourseBack/>
+    <h2>New changes</h2>
     
     </>
   )
