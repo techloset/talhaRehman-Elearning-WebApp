@@ -12,34 +12,34 @@ function Articles() {
     const marketArticle=[
         {
             id:1,
-            mainImg:<Image src={article1} alt='article img' className='mt-[1.25rem] ml-[1.31rem] mr-[1.13rem]'/>
+            mainImg:<Image src={article1} alt='article img' className='mt-[1.25rem] sm:ml-[1.31rem] sm:mr-[1.13rem]'/>
 
         },
         {
             id:2,
-            mainImg:<Image src={article2} alt='article img' className='mt-[1.25rem] ml-[1.31rem] mr-[1.13rem]'/>
+            mainImg:<Image src={article2} alt='article img' className='mt-[1.25rem] sm:ml-[1.31rem] sm:mr-[1.13rem]'/>
 
         },
         {
             id:3,
-            mainImg:<Image src={article3} alt='article img' className='mt-[1.25rem] ml-[1.31rem] mr-[1.13rem]'/>
+            mainImg:<Image src={article3} alt='article img' className='mt-[1.25rem] sm:ml-[1.31rem] sm:mr-[1.13rem]'/>
 
         },
         {
             id:4,
-            mainImg:<Image src={article4} alt='article img' className='mt-[1.25rem] ml-[1.31rem] mr-[1.13rem]'/>
+            mainImg:<Image src={article4} alt='article img' className='mt-[1.25rem] sm:ml-[1.31rem] sm:mr-[1.13rem]'/>
 
         }
     ]
     return (
         <>
-            <div>
-                <div className='flex justify-between ml-[7.5rem]  pt-[5.81rem] mr-[5.56rem]'>
-                    <h2 className='text-[#000000] text-[1.875rem] font-medium tracking-[0.0375rem]'>Marketing Articles</h2>
-                    <p className='text-[#49BBBD] text-[1.25rem] font-bold'>See all</p>
+            <div className='xl:mx-16'> 
+                <div className='flex  justify-between 2xl:ml-[7.5rem]  pt-[5.81rem] mr-[5.56rem]'>
+                    <h2 className='text-[#000000] text-[1.875rem] font-medium tracking-[0.0375rem] xs:w-[90%]'>Marketing Articles</h2>
+                    <p className='text-[#49BBBD] text-[1.25rem] font-bold xs:hidden'>See all</p>
                 </div>
-                <div className='ml-[7.5rem] mt-[3.13rem] pb-[10.69rem] flex gap-[3.12rem]'>
-               {marketArticle.map((info)=>(  <div className='bg-[#fff] flex flex-col articleShadow w-[23.375rem] '>
+                <div className='2xl:ml-[7.5rem] mt-[3.13rem] pb-[10.69rem] flex flex-wrap gap-[3.12rem]'>
+               {marketArticle.map((info)=>(  <div className='bg-[#fff] flex flex-col articleShadow w-[23.375rem] xs:w-[19rem] '>
                         {info.mainImg}
                         <div className='flex justify-between items-center mt-[1.31rem] ml-[1.69rem]'>
                             <div className='flex items-center'>
@@ -52,7 +52,7 @@ function Articles() {
                             </div>
                         </div>
                         <h2 className='text-[#252641] text-[1.5rem] font-medium ml-[1.69rem] mt-[1.25rem]'>AWS Certified solutions Architect</h2>
-                        <p className='ml-[1.69rem] w-[20rem] text-[#696984] text-[1.125rem] font-normal leading-[2.025rem] tracking-[0.0225rem] mt-[1.31rem]'>Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
+                        <p className='ml-[1.69rem] w-[20rem] text-[#696984] text-[1.125rem] font-normal leading-[2.025rem] tracking-[0.0225rem] mt-[1.31rem] xs:w-[90%]'>Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
                         <div className='flex justify-between ml-[1.69rem] mt-[1.06rem] pb-[2.19rem]'>
                                 <div className='flex items-center'>
                                     <div className='w-[2.77rem] h-[2.76559rem] rounded-full flex justify-center items-end bg-[#D9D9D9]'>

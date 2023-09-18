@@ -12,16 +12,16 @@ function page() {
     <CourseBack/>
     <Choice/>
     <div className='bg-[#9DCCFF]/[0.2]'>
-      <div className='flex justify-between items-center ml-[7.5rem] pt-[6.3rem] mr-[8.9rem]'>
+      <div className='flex justify-between items-center ml-[7.5rem] pt-[6.3rem] xs:mx-10 mr-[8.9rem]'>
         <h2 className='text-[#000000] text-[1.875rem] font-medium tracking-[0.0375rem]'>Recommended for you</h2>
-        <h3 className='text-[#49BBBD] text-[1.25rem] font-bold '>See all</h3>
+        <h3 className='text-[#49BBBD] text-[1.25rem] font-bold hidden md:block'>See all</h3>
       </div>
       <Cards/>
     </div>
     <div className=''>
-      <div className='flex justify-between items-center ml-[7.5rem] pt-[6.3rem] mr-[8.9rem]'>
+      <div className='flex justify-between items-center ml-[7.5rem] pt-[6.3rem] mr-[8.9rem] xs:mx-10'>
         <h2 className='text-[#000000] text-[1.875rem] font-medium tracking-[0.0375rem]'>Get choice of your course</h2>
-        <h3 className='text-[#49BBBD] text-[1.25rem] font-bold '>See all</h3>
+        <h3 className='text-[#49BBBD] text-[1.25rem] font-bold hidden md:block'>See all</h3>
       </div>
       <Cards/>
     </div>
@@ -40,16 +40,16 @@ function page() {
        
       </div>
       <div className=''>
-      <div className='flex justify-between items-center ml-[7.5rem] pt-[6.3rem] mr-[8.9rem]'>
+      <div className='flex justify-between items-center ml-[7.5rem] pt-[6.3rem] mr-[8.9rem] xs:mx-10'>
         <h2 className='text-[#000000] text-[1.875rem] font-medium tracking-[0.0375rem]'>The course in personal development</h2>
-        <h3 className='text-[#49BBBD] text-[1.25rem] font-bold '>See all</h3>
+        <h3 className='text-[#49BBBD] text-[1.25rem] font-bold hidden md:block'>See all</h3>
       </div>
       <Cards/>
     </div>
     <div className='bg-[#9DCCFF]/[0.2]'>
-      <div className='flex justify-between items-center ml-[7.5rem] pt-[6.3rem] mr-[8.9rem]'>
+      <div className='flex justify-between items-center ml-[7.5rem] pt-[6.3rem] mr-[8.9rem] xs:mx-10'>
         <h2 className='text-[#000000] text-[1.875rem] font-medium tracking-[0.0375rem]'>Student are viewing</h2>
-        <h3 className='text-[#49BBBD] text-[1.25rem] font-bold '>See all</h3>
+        <h3 className='text-[#49BBBD] text-[1.25rem] font-bold hidden md:block'>See all</h3>
       </div>
       <Cards/>
     </div>

@@ -11,7 +11,7 @@ function Header() {
   const [navbar, setNavbar] = useState(false);
   return (
     <>
-        <nav className="ml-[7.5rem] pt-[1.87rem] pb-[2rem] lg:flex items-center justify-between hidden ">
+        <nav className="xl:ml-[7.5rem]  lg:ml-14 pt-[1.87rem] pb-[2rem] lg:flex items-center justify-between hidden ">
           <div>
         <Link href='./'>    <Image src={logo} alt="logo" /></Link>
           </div>
@@ -23,7 +23,7 @@ function Header() {
              <Link href="./blog"> <li className="ml-20" >Blog</li></Link>
               <li className="ml-20" >About Us</li>
             </ul>
-            <div className="flex items-center  ml-[4.31rem] mr-[7.5rem] h-auto">
+            <div className="flex items-center  ml-[4.31rem] xl:mr-[7.5rem] lg:ml-14 h-auto">
                   <div className='w-[3.9375rem] h-[3.9375rem] rounded-full bg-[#D9D9D9]'><Image src={profileLogo} alt='Profile Pic'/></div>
                   <p className='text-[#000] text-[1.125rem] font-medium leading-[0.0225rem] ml-[0.94rem] mr-[0.75rem]'>Lina</p>
                   <div> <Image src={arrowdown} alt='down'/> </div>

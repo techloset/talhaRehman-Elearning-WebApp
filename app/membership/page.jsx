@@ -37,8 +37,8 @@ function page() {
       {/* Header */}
       <Header />
 
-      <div className='mt-[7.41rem]'>
-        <h1 className='text-[#49BBBD] text-[4rem] font-extrabold tracking-[-0.0625rem] text-center'>Affordable pricing</h1>
+      <div className='mt-[7.41rem] xs:mt-[3rem]'>
+        <h1 className='text-[#49BBBD] text-[4rem] font-extrabold tracking-[-0.0625rem] text-center xs:text-[3rem]'>Affordable pricing</h1>
         <div className='mt-[4.81rem] 2xl:mx-[23.4rem]'>
           <div className="flex justify-between flex-wrap lg:flex-nowrap gap-7">
             {/* free */}
