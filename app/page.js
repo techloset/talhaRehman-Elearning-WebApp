@@ -1,5 +1,3 @@
-import Header from "./components/header/Header";
-
 import Success from "./components/success/Success";
 import CloudSoftware from "./components/cloudSoftware/CloudSoftware";
 import Totc from "./components/totc/Totc";
