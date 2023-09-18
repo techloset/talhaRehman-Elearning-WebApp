@@ -121,4 +121,8 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+  .searchBg{
+    background-image: url("../public/images/searchBg.svg");
+    background-repeat: no-repeat;
+  }
 }
