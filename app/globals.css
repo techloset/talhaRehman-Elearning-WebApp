@@ -78,29 +78,47 @@
     background-size: cover;
     border-radius: 1.25rem;
   }
-  .literatureCourse{
+
+  .literatureCourse {
     border-radius: 0.625rem;
     background: #FFF;
     box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.25);
   }
-  .explore{
+
+  .explore {
     background-image: url("../public/images/explore.svg");
     background-repeat: no-repeat;
   }
+
   .book {
     transform: rotate(-10deg);
-   
-}
+  }
 
-.try{
+  .try {
     width: 240px;
     height: 38.974px;
     transform: rotate(90deg);
     flex-shrink: 0;
-}
-.courseDetails{
-  background-image: url("../public/images/courseDetailBg.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-}
+  }
+
+  .courseDetails {
+    background-image: url("../public/images/courseDetailBg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .checkout1{
+    background-image: url("../public/images/checkoutLaptop.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .checkout2{
+    background-image: url("../public/images/checkoutGirl.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .checkout3{
+    background-image: url("../public/images/checkoutCat.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }

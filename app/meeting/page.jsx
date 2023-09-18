@@ -15,10 +15,10 @@ import book2 from '@/public/images/meetingbook2.svg'
 function page() {
     return (
         <>
-            <div className='bg-[#9DCCFF]/[0.2] flex  overflow-x-hidden'>
+            <div className='bg-[#9DCCFF]/[0.2] flex flex-wrap justify-center 2xl:justify-normal  overflow-x-hidden'>
 
-                <div className='ml-[6.06rem] pt-[6.06rem]'>
-                    <div className='flex items-center gap-[3.12rem]'>
+                <div className='2xl:ml-[6.06rem] xl:ml-[2rem] xs:pt-[2rem] pt-[6.06rem]'>
+                    <div className='flex flex-wrap md:flex-nowrap xs:justify-center items-center gap-[3.12rem]'>
                         <div className='ml-5'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
                                 <rect width="50" height="50" fill="#49BBBD" />
@@ -27,7 +27,7 @@ function page() {
                                 <line x1="12.6097" y1="24.623" x2="20.0744" y2="31.1251" stroke="white" />
                             </svg>
                         </div>
-                        <div className='bg-[#fff] rounded-[1.625rem] w-[66.8125rem] h-[9.5625rem] pl-[2.19rem]'>
+                        <div className='bg-[#fff] rounded-[1.625rem] xl:w-[66.8125rem] w-[90%] xl:h-[9.5625rem] pl-[2.19rem]'>
                             <div className='flex items-center justify-between  mt-[2.19rem] mr-[3.17rem]'>
                                 <h2 className='text-[#252641] text-[1.875rem] font-semibold '>UX/UI Design Confrence Meeting</h2>
                                 <Image src={setting} alt='setting' />
@@ -42,13 +42,13 @@ function page() {
 
                 </div>
                 <div className=''>
-                    <div className='bg-[#FFFFFF] rounded-[0.9375rem] ml-[2.19rem] mt-[6.06rem] w-[31.125rem] pr-[1.94rem] pl-[1.88rem] pb-4'>
+                    <div className='bg-[#FFFFFF] rounded-[0.9375rem] sm:ml-[2.19rem] mt-[6.06rem] sm:w-[31.125rem] xs:w-[98%] pr-[1.94rem] pl-[1.88rem] pb-4'>
                         <h2 className='text-[#252641] text-[1.875rem] font-semibold pt-[2.5rem] '>Course Contents</h2>
                         <div className='flex justify-between items-center mt-[1.13rem]'>
                             <h3 className='text-[#49BBBD] text-[0.875rem]  font-medium '>2/5 COMPLETED</h3>
                             <Image src={meetingCalander} alt="calander" />
                         </div>
-                        <div className='flex gap-1 mt-4'>
+                        <div className='flex xs:flex-wrap xs:gap-4 gap-1 mt-4'>
                             <div className='w-[5.312rem] h-[0.3125rem] bg-[#49BBBD]'></div>
                             <div className='w-[5.312rem] h-[0.3125rem] bg-[#49BBBD]'></div>
                             <div className='w-[5.312rem] h-[0.3125rem] bg-[#49BBBD]/[0.25]'></div>
@@ -187,10 +187,10 @@ function page() {
 
                     </div>
 
-                    <div className='mt-[1.81rem] ml-[2.19rem] pb-10'>
+                    <div className='mt-[1.81rem] sm:ml-[2.19rem] pb-10'>
                         <div className="bg-white rounded-2xl px-[1.88rem] pt-[2.88rem] text-center flex flex-col   ">
-                            <div className="flex justify-between items-center">
-                                <p className="text-3xl font-semibold mb-[28px]">Book for you</p>
+                            <div className="flex justify-between items-center mb-[28px]">
+                                <p className="text-3xl font-semibold ">Book for you</p>
                                 <Image src={meetingCalander2} alt='calander' />
                             </div>
 

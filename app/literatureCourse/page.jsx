@@ -6,7 +6,6 @@ import Image from 'next/image'
 import start from '../../public/images/literaturestar.svg'
 import eyes from '../../public/images/literatureeye.svg'
 import video from '../../public/images/literaturevideo.svg'
-// import social from '../../public/images/literaturesocial.svg'
 import social from '../../public/images/literatureSocial.svg'
 import course1 from '../../public/images/Literaturecourse1.svg'
 import course2 from '../../public/images/Literaturecourse2.svg'
@@ -20,27 +19,27 @@ function page() {
   const Courses = [
     {
       id: 1,
-      img: <Image src={course1} alt='book1' className='mx-[1.6rem] mt-[1.88rem]' />
+      img: <Image src={course1} alt='book1' className='sm:mx-[1.6rem] mt-[1.88rem] xs:w-[18rem] xs:mx-auto' />
     },
     {
       id: 2,
-      img: <Image src={course2} alt='book1' className='mx-[1.6rem] mt-[1.88rem]' />
+      img: <Image src={course2} alt='book1' className='sm:mx-[1.6rem] mt-[1.88rem] xs:w-[18rem] xs:mx-auto' />
     },
     {
       id: 3,
-      img: <Image src={course3} alt='book1' className='mx-[1.6rem] mt-[1.88rem]' />
+      img: <Image src={course3} alt='book1' className='sm:mx-[1.6rem] mt-[1.88rem] xs:w-[18rem] xs:mx-auto' />
     },
     {
       id: 4,
-      img: <Image src={course4} alt='book1' className='mx-[1.6rem] mt-[1.88rem]' />
+      img: <Image src={course4} alt='book1' className='sm:mx-[1.6rem] mt-[1.88rem] xs:w-[18rem] xs:mx-auto' />
     },
     {
       id: 5,
-      img: <Image src={course5} alt='book1' className='mx-[1.6rem] mt-[1.88rem]' />
+      img: <Image src={course5} alt='book1' className='sm:mx-[1.6rem] mt-[1.88rem] xs:w-[18rem] xs:mx-auto' />
     },
     {
       id: 6,
-      img: <Image src={course6} alt='book1' className='mx-[1.6rem] mt-[1.88rem]' />
+      img: <Image src={course6} alt='book1' className='sm:mx-[1.6rem] mt-[1.88rem] xs:w-[18rem] xs:mx-auto' />
     },
   ]
   return (
@@ -51,17 +50,17 @@ function page() {
       <div className='2xl:mx-[7.5rem] xl:mx-[2.5rem] lg:mx-[1.5rem]'>
 
         <div className='literatureMain lg:pl-[3.12rem] sm:pl-2 pt-[1.63rem] pb-[1.63rem] flex flex-wrap lg:flex-nowrap sm:justify-center '>
-          <div className='bg-[#fff] rounded-[22.6875rem] min-w-[22.6875rem] max-h-[22.6875rem]  '>
+          <div className='bg-[#fff] rounded-[22.6875rem] min-w-[22.6875rem] max-h-[22.6875rem] xs:min-w-[18rem]  '>
             <Image src={literatureProfile} alt='Hello' className='pt-[1rem] pl-[0.81rem] ' />
           </div>
           <div className='bg-[rgb(255,255,255)]/[0.80] rounded-[1.25rem] mt-4 lg:pl-[1.8rem] xl:pl-[3.13rem] pr-[2.5rem]  w-[74.9375rem] lg:h-[24rem] xl:h-[21.75rem] ml-[2.13rem] xs:ml-2 xs:pl-0'>
-            <div className='flex justify-between pt-[3rem] items-center'>
+            <div className='flex xs:flex-wrap xs:my-5 justify-between pt-[3rem] items-center'>
               <h2 className='text-[#000000] text-[1.875rem] font-medium tracking-[0.0375rem] leading-normal'>John Anderson</h2>
               <button className='text-[#fff] text-[1.5rem] font-bold bg-[#49BBBD] rounded-[0.75rem] w-[11.44769rem] h-[3.9375rem]'>Enroll Now</button>
             </div>
             <p className='text-[rgba(45,52,54,0.70)] text-[1.125rem] leading-[2rem] mt-[0.44rem]'>Assistant Professor at Mcmaster University</p>
             <p className='text-[#2D3436] text-[1.5625rem] leading-[2rem] mt-[0.94rem] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enum ad minim veniam, quis nostrud</p>
-            <div className='flex justify-around mt-[1.56rem]'>
+            <div className='flex xs:flex-wrap justify-around mt-[1.56rem]'>
               <div className='flex items-center gap-1'>
                 <Image src={start} alt="Start" />
                 <p className='text-[rgba(45,52,54,0.80)] text-[0.9375rem] leading-[2rem]'>4.9 instructor Rating</p>
@@ -83,7 +82,7 @@ function page() {
         </div>
 
 
-        <div className='mt-[4.25rem] flex xs:ml-3 flex-wrap lg:flex-nowrap gap-[1.61rem]'>
+        <div className='mt-[4.25rem] flex xs:ml-3 flex-wrap xs:justify-center lg:flex-nowrap gap-[1.61rem]'>
           <div className='text-[#696969] text-[1.5rem] font-bold bg-[rgba(187,187,187,0.50)] rounded-[0.75rem] w-[11.44rem] h-[3.9375rem] flex justify-center items-center'>
             <p>About</p>
           </div>
@@ -109,9 +108,9 @@ function page() {
         </div>
         <div className='mt-[4.25rem]'>
           <h2 className='text-[#000000] text-[1.875rem] font-medium tracking-[0.0375rem]'>Literature course</h2>
-          <div className='grid 2xl:grid-cols-3 lg:grid-cols-2 gap-[5.31rem] sm:justify-center lg:justify-normal' >
+          <div className='grid 2xl:grid-cols-3 lg:grid-cols-2 gap-[5.31rem] sm:justify-center xs:justify-center lg:justify-normal' >
 
-            {Courses.map((info) => (<div className='literatureCourse lg:w-[31.437rem] w-[25rem]'>
+            {Courses.map((info) => (<div className='literatureCourse lg:w-[31.437rem] w-[30rem] xs:w-[20rem]'>
               <div>
                 {info.img}
               </div>
