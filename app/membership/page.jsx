@@ -7,7 +7,7 @@ import tick from '../../public/images/membershipTick.svg'
 import yellowTick from '../../public/images/yellowTick.svg'
 import greentick from '../../public/images/greenTick.svg'
 import StudentToSay from '../components/studentToSay/StudentToSay'
-import Membershipcard from '../components/membershipCard/MembershipCard'
+import Membershipcard from '../components/membershipCard/Membershipcard'
 import androidLogo from '../../public/images/andriodLogo.svg'
 import appleLogo from '../../public/images/appleLogo.svg'
 
