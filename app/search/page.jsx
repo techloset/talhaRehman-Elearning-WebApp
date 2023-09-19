@@ -4,11 +4,13 @@ import Footer from '../components/footer/Footer'
 import Cards from '../components/cards/Cards'
 import Image from 'next/image'
 import student from '@/public/images/searchStudent.svg'
-import social from '@/public/images/searchSocial.svg'
 import profile1 from '@/public/images/searchProfile1.svg'
 import profile2 from '@/public/images/searchProfile2.svg'
 import profile3 from '@/public/images/searchProfile3.svg'
 import profile4 from '@/public/images/searchProfile4.svg'
+import twitter  from'@/public/images/searchTwitter.svg'
+import facebook  from'@/public/images/searchFacebook.svg'
+import instagram  from'@/public/images/seacrhInstagram.svg'
 
 function page() {
   return (
@@ -145,7 +147,9 @@ function page() {
               </p>
 
               <div className="flex gap-[25px]">
-                <Image src={social} alt='Social' />
+                <Image src={twitter} alt='twitter'/>
+                <Image src={facebook} alt='facebook'/>
+                <Image src={instagram} alt='instagram'/>
               </div>
             </div>
 

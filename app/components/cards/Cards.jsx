@@ -9,29 +9,27 @@ function Cards() {
     const marketArticle=[
         {
             id:1,
-            mainImg:<Image src={article1} alt='article img' className='mt-[1.25rem] sm:ml-[1.31rem] xs:ml-6 sm:mr-[1.13rem] xs:w-[18rem]  '/>
+            mainImg:article1
 
         },
         {
             id:2,
-            mainImg:<Image src={article2} alt='article img' className='mt-[1.25rem] sm:ml-[1.31rem] xs:ml-6 sm:mr-[1.13rem] xs:w-[18rem]'/>
-
-        },
+            mainImg:article2      
+          },
         {
             id:3,
-            mainImg:<Image src={article1} alt='article img' className='mt-[1.25rem] sm:ml-[1.31rem] xs:ml-6 sm:mr-[1.13rem] xs:w-[18rem]'/>
-
-        },
+            mainImg:article1     
+           },
         {
             id:4,
-            mainImg:<Image src={article2} alt='article img' className='mt-[1.25rem] sm:ml-[1.31rem] xs:ml-6 sm:mr-[1.13rem] xs:w-[18rem]'/>
-        }
+            mainImg:article2     
+          }
     ]
   return (
     <>
        <div className='md:ml-[7.5rem] xs:ml-2 justify-center md:justify-normal mt-[3.13rem] pb-[10.69rem] flex flex-wrap  gap-[3.12rem]'>
                {marketArticle.map((info)=>(  <div className='bg-[#fff] flex  flex-col articleShadow w-[23.375rem] xs:w-[20rem] '>
-                        {info.mainImg}
+               <Image src={info.mainImg}  alt='article img' className='mt-[1.25rem] sm:ml-[1.31rem] xs:ml-6 sm:mr-[1.13rem] xs:w-[18rem]'/>
                         <div className='flex justify-between items-center mt-[1.31rem] ml-[1.69rem]'>
                             <div className='flex items-center '>
                                 <Image src={artivleblock} alt='block'/>

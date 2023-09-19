@@ -11,15 +11,15 @@ function CourseBack() {
     const cards = [
         {
           id: 1,
-          image: <Image src={course1} alt='Course'/>,
+          image: course1,
         },
         {
           id: 2,
-          image: <Image src={course2} alt='Course'/>,
+          image: course2,
         },
         {
           id: 3,
-          image: <Image src={course3} alt='Course'/>,
+          image:course3
         },
       ];
   return (
@@ -42,7 +42,7 @@ function CourseBack() {
                 className="mx-auto  bg-white shadow-md overflow-hidden p-4 rounded-[20px]"
                 key={index}
               >
-                {card.image}
+                <Image src={card.image} alt='Course'/>
                 <div className="p-4">
                   <h2 className="text-xl font-bold mb-2">AWS Certified Solutions Architect</h2>
                   <div className="flex items-center space-x-4 mb-4">

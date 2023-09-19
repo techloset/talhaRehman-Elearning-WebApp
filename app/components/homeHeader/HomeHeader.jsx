@@ -25,7 +25,7 @@ function HomeHeader() {
           <Link href="./course">    <li className="ml-20" >Courses</li></Link>
           <Link href="./membership">  <li className="ml-20" >Careers</li></Link>  
             <Link href="./blog">  <li className="ml-20" >Blog</li></Link>
-              <li className="ml-20" >About Us</li>
+            <Link href="./blogDetails">  <li className="ml-20" >About Us</li></Link>
             </ul>
             <div className="flex items-center  ml-[5.06rem] 2xl:mr-[8.375rem] lg:mr-12 h-auto">
             <Link href="./login"><button className="text-[#5B5B5B] text-[1.375rem] font-medium tracking-[0.0275rem] w-40 h-[3.75rem] rounded-[5rem] shadow-[0px 20px 24px 0px rgba(0, 0, 0, 0.03)] bg-[#fff]">Login</button></Link>
