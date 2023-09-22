@@ -6,24 +6,25 @@ import detail from '../../../public/images/Detail.svg'
 import detail2 from '../../../public/images/Detail2.svg'
 import detail3 from '../../../public/images/Detail3.svg'
 import ribbon from '../../../public/images/ribbon-b.svg'
+import seeAll from '@/public/images/SeeAll.svg'
 
 function Explore() {
   return (
     <>
-    <div className='explore hidden 2xl:block overflow-x-hidden'>
-     <div className=" h-full mx-4 sm:mx-6 xl:mx-[155px]">
-        <h1 className="font-bold text-4xl mt-[12rem]">Explore Courses</h1>
-        <p className="text-gray-600 mt-2">
+    <div className='explore hidden 2xl:block overflow-x-hidden font-[roboto]'>
+     <div className=" h-full mx-4 sm:mx-6 xl:ml-[155px] xl:mr-[4.5rem]">
+        <h1 className="font-bold text-4xl mt-[16.4rem] font-[roboto]">Explore Courses</h1>
+        <p className="text-gray-600 text-2xl mt-2 font-[roboto]">
           Ut sed eros finibus, placerat orci id, dapibus.
         </p>
 
         <div className="flex justify-between mt-[117px]">
-          <p className="flex items-center gap-1 text-[1.75rem] font-bold text-[rgba(0,0,0,0.87)]">
+          <p className="flex items-center gap-1 text-[1.75rem] font-bold text-[rgba(0,0,0,0.87)] font-[roboto]">
        
           <Image src={color} alt='color' />
             Lorem ipsum
           </p>
-          <p className="text-[#00BCD4] text-2xl font-bold">SEE ALL →</p>
+          <p className="text-[#00BCD4] text-2xl font-bold"><Image src={seeAll} alt='seeall'/> </p>
         </div>
        
         <div className="relative z-10 mt-12">
@@ -34,7 +35,7 @@ function Explore() {
                 <p className="try absolute top-[50%] z-50 -mr-16 right-0 text-center text-2xl font-medium">
                   Ut Sed Erost
                 </p>
-                <div className="bg-orange-600 relative px-4 py-2 h-full text-upright rounded-3xl "></div>
+                <div className="bg-[#FF6F00] relative px-4 py-2 h-full text-upright rounded-3xl "></div>
               </div>
             </div>
 
@@ -108,7 +109,7 @@ function Explore() {
             <Image src={global} alt='global'/> 
             Lorem ipsum
           </p>
-          <p className="text-[#00BCD4] text-2xl font-bold">SEE ALL →</p>
+          <p className="text-[#00BCD4] text-2xl font-bold"><Image src={seeAll} alt='seeall'/></p>
         </div>
        
         <div className="relative z-10 mt-12">
@@ -192,7 +193,7 @@ function Explore() {
         <Image src={ribbon} alt='ribbo' />
             Lorem ipsum
           </p>
-          <p className="text-[#00BCD4] text-2xl font-bold">SEE ALL →</p>
+          <p className="text-[#00BCD4] text-2xl font-bold"><Image src={seeAll} alt='seeall'/></p>
         </div>
 
         <div className="relative z-10 mt-12">

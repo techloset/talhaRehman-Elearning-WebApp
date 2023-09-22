@@ -11,7 +11,7 @@ function LastestNews() {
         {
             id:1,
             img:<Image src={news1} alt='news1'/>,
-            btn:"NEWS",
+            btn:"PRESS RELEASE",
             h1:"Class Technologies Inc. Closes $30 Million Series A Financing to Meet High Demand",
             h2:"Class Technologies Inc., the company that created Class,..."
         },
@@ -32,11 +32,11 @@ function LastestNews() {
     ]
   return (
     <>
-    <div className=" text-center mt-36 mx-auto xs:hidden ">
-        <p className="text-[#2F327D] text-4xl   font-bold py-5">
+    <div className=" text-center mt-36 mx-auto xs:hidden   ">
+        <p className="text-[#2F327D] text-4xl   font-bold py-5 nunito">
           Latest News and Resources
         </p>
-        <p className="text-[#696984] text-2xl mt-5">
+        <p className="text-[#696984] text-2xl mt-5 nunito">
           See the developments that have occurred to TOTC in the world
         </p>
       </div>
@@ -63,12 +63,12 @@ function LastestNews() {
          
         </div>
 
-        <div className="cards col-span-12 xl:col-span-7 mt-8 xl:mx-8  md:mx-auto md:mt-28">
+        <div className="cards col-span-12 xl:col-span-7 2xl:mt-0 mt-8 xl:mx-8  md:mx-auto md:mt-28">
 
-       {Cards.map((info)=>(<div className='flex gap-4 mb-5'>
+       {Cards.map((info,index)=>(<div className='flex gap-4 mb-5' key={index}>
                 <div className='relative'> 
                     {info.img}
-                    <button className='text-[#fff] text-[1.125rem] tracking-[0.02254rem] bg-[#49BBBD] rounded-[5rem] p-2 top-[70%] left-[70%] absolute flex justify-center items-center'>{info.btn}</button>
+                    <button className={'text-[#fff] text-[1.125rem] tracking-[0.02254rem] bg-[#49BBBD] rounded-[5rem] p-2 px-3 top-[70%] left-[70%] absolute flex justify-center items-center'} style={{ width: index === 0 ? '184px' : '100px' , left: index ===0 ? '25%' : '55%' }}>{info.btn}</button>
                 
                 </div>
                 <div>

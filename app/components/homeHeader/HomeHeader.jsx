@@ -15,7 +15,7 @@ function HomeHeader() {
   return (
    <>
    <header className="header-bg  overflow-x-hidden">
-        <nav className="2xl:ml-[7.56rem] lg:ml-16 pt-[1.88rem] items-center justify-between xl:flex hidden ">
+        <nav className="2xl:ml-[7.56rem] lg:ml-10 pt-[1.88rem] items-center justify-between xl:flex hidden ">
           <div>
           <Link href="./"> <Image src={logo} alt="logo" width={100} height={100} /></Link>
           </div>
@@ -27,9 +27,9 @@ function HomeHeader() {
             <Link href="./blog">  <li className="ml-20" >Blog</li></Link>
             <Link href="./blogDetails">  <li className="ml-20" >About Us</li></Link>
             </ul>
-            <div className="flex items-center  ml-[5.06rem] 2xl:mr-[8.375rem] lg:mr-12 h-auto">
-            <Link href="./login"><button className="text-[#5B5B5B] text-[1.375rem] font-medium tracking-[0.0275rem] w-40 h-[3.75rem] rounded-[5rem] shadow-[0px 20px 24px 0px rgba(0, 0, 0, 0.03)] bg-[#fff]">Login</button></Link>
-             <Link href="./login/register"> <button className="text-[#FFFFFF] text-[1.375rem] font-medium tracking-[0.0275rem] w-40 h-[3.75rem] rounded-[5rem] shadow-[0px 20px 24px 0px rgba(0, 0, 0, 0.03)] bg-[rgba(255,255,255,0.30)] ml-[1.63rem]">Sign Up</button></Link>
+            <div className="flex items-center  2xl:ml-[5.06rem] lg:ml-10 2xl:mr-[8.375rem] lg:mr-10 h-auto">
+            <Link href="./login"><button className="text-[#5B5B5B] text-[1.375rem] font-medium tracking-[0.0275rem] 2xl:w-40 lg:w-32 h-[3.75rem] rounded-[5rem] shadow-[0px 20px 24px 0px rgba(0, 0, 0, 0.03)] bg-[#fff]">Login</button></Link>
+             <Link href="./login/register"> <button className="text-[#FFFFFF] text-[1.375rem] font-medium tracking-[0.0275rem] 2xl:w-40 w-32 h-[3.75rem] rounded-[5rem] shadow-[0px 20px 24px 0px rgba(0, 0, 0, 0.03)] bg-[rgba(255,255,255,0.30)] ml-[1.63rem]">Sign Up</button></Link>
             </div>
           </div>
         </nav>

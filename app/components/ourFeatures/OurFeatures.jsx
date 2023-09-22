@@ -24,10 +24,10 @@ function OurFeatures() {
                             <Image src={main} alt="Main Image" className='absolute' />
                         </div>
                         <div className='xl:col-span-5 col-span-12 md:mt-[40rem] mt-[25rem] xl:mt-0 mx-auto xl:mx-0'>
-                            <h2 className='text-[2.5rem] font-semibold leading-[4rem] text-[#2F327D] lg:w-[33.8rem] xs:w-[85%] xs:mx-5  '>A <span className='text-[#00CBB8]'> vuser interface </span> designed for the classroom</h2>
+                            <h2 className='text-[2.5rem] font-semibold leading-[4rem] text-[#2F327D] lg:w-[33.8rem] xs:w-[85%] xs:mx-5  '>A <span className='text-[#00CBB8]'> user interface </span> designed for the classroom</h2>
                             <div className='mt-[3.19rem]'>
                                 <div className='flex xs:flex-wrap xs:mx-4'>
-                                    <div className='w-[3.75rem] h-[3.75rem] bg-[#FBFBFB] featureBoxShadow rounded-full relative'> <Image src={featureIcon1} alt='Icon' className='absolute translate-x-[-50%] translate-y-[-50%] left-[50%] top-[50%] ' /> </div>
+                                    <div className='w-[3.75rem] h-[3.75rem] bg-[#FBFBFB] featureBoxShadow rounded-full relative '> <Image src={featureIcon1} alt='Icon' className='absolute translate-x-[-50%] translate-y-[-50%] left-[50%] top-[50%] ' /> </div>
                                     <div className='w-[26.6875rem] xs:w-[90%] sm:ml-[2.62rem]'> <h3 className='text-[#696984] text-[1.375rem] font-normal leading-[2.475rem] tracking-[0.0275rem]'>Teachers don’t get lost in the grid view and have a dedicated Podium space.</h3></div>
                                 </div>
                                 <div className='flex mt-[2.5rem] xs:flex-wrap xs:mx-4'>
@@ -54,9 +54,9 @@ function OurFeatures() {
                             <div className='xl:col-span-6 col-span-12 mx-auto xl:mx-0 mt-10 xl:mt-0 '> <Image src={featurePic1} alt="Pic of Learning Girl" /> </div>
                         </div>
                         <div className='grid grid-cols-12 mt-[12.75rem] '>
-                            <div className='xl:col-span-6 col-span-12 mx-auto xl:mx-0  '> <Image src={featurePic2} alt="Pic of Learning Girl" /> </div>
-                            <div className='xl:col-span-6 col-span-12  mx-auto xl:mx-0 mt-10 xl:mt-0'>
-                                <h2 className='text-[2.5rem] font-semibold leading-[4rem] text-[#2F327D] sm:ml-24 w-[24rem] mt-48 xs:mt-16'>Assessments,  <span className='text-[#00CBB8]'>Quizzes</span>, Tests </h2>
+                            <div className='xl:col-span-6 col-span-12 mx-auto xl:mx-0 2xl:ml-12 '> <Image src={featurePic2} alt="Pic of Learning Girl" /> </div>
+                            <div className='xl:col-span-6 col-span-12  mx-auto xl:mx-0 mt-10 xl:mt-0 2xl:mr-[17rem]'>
+                                <h2 className='text-[2.5rem] font-semibold leading-[4rem] text-[#2F327D] sm:ml-24 w-[24rem] mt-40 xs:mt-16'>Assessments,  <span className='text-[#00CBB8]'>Quizzes</span>, Tests </h2>
                                 <p className='text-[#696984] text-[1.375rem] leading-[2.475rem] tracking-[0.0275rem] w-[32rem] xs:w-[90%] mt-[1.25rem] sm:ml-24'>Easily launch live assignments, quizzes, and tests.
                                     Student results are automatically entered in the online gradebook.</p>
                             </div>
@@ -65,22 +65,22 @@ function OurFeatures() {
                         <div className='grid grid-cols-12 xl:mt-[12.75rem] xl:gap-[9rem] '>
                             
                             <div className='xl:col-span-4 col-span-12 mx-auto xl:mx-0'>
-                                <h2 className='text-[2.5rem] font-semibold leading-[4rem] text-[#2F327D] sm:ml-24 w-[24rem] xs:w-[90%] mt-48 xs:mt-16'><span className='text-[#00CBB8]'>Class Management </span>Tools for Educators</h2>
-                                <p className='text-[#696984] text-[1.375rem] leading-[2.475rem] tracking-[0.0275rem] w-[32rem] mt-[1.25rem] sm:ml-24 xs:w-[90%]'>Class provides tools to help run and manage the class such as Class Roster, Attendance, and more. With the Gradebook, teachers can review and grade tests and quizzes in real-time.</p>
+                                <h2 className='text-[2.5rem] font-semibold leading-[4rem] text-[#2F327D] sm:ml-24 2xl:ml-0 w-[24rem] xs:w-[90%] mt-48 xs:mt-16'><span className='text-[#00CBB8]'>Class Management </span>Tools for Educators</h2>
+                                <p className='text-[#696984] text-[1.375rem] leading-[2.475rem] tracking-[0.0275rem] w-[35rem] mt-[1.25rem] 2xl:ml-0 sm:ml-24 xs:w-[90%]'>Class provides tools to help run and manage the class such as Class Roster, Attendance, and more. With the Gradebook, teachers can review and grade tests and quizzes in real-time.</p>
                             </div>
-                            <div className='xl:col-span-8 col-span-12 mx-auto xl:mx-0'> <Image src={featurePic3} alt="Pic of Learning Girl" /> </div>
+                            <div className='xl:col-span-8 col-span-12 mx-auto xl:mx-0 2xl:ml-10'> <Image src={featurePic3} alt="Pic of Learning Girl" /> </div>
 
                         </div>
                         <div className='grid grid-cols-12 mt-[12.75rem] '>
                             <div className='xl:col-span-6 col-span-12 mx-auto xl:mx-0'> <Image src={featurePic4} alt="Pic of Learning Girl" /> </div>
                             <div className='xl:col-span-6 col-span-12 mx-auto xl:mx-0'>
-                                <h2 className='text-[2.5rem] font-semibold leading-[4rem] text-[#2F327D] sm:ml-24 w-[24rem] mt-48 xs:mt-16'> One-on-One <span className='text-[#00CBB8]'>Discussions</span></h2>
-                                <p className='text-[#696984] text-[1.375rem] leading-[2.475rem] tracking-[0.0275rem] w-[32rem] mt-[1.25rem] sm:ml-24 xs:w-[90%]'>Teachers and teacher assistants can talk with students privately without leaving the Zoom environment.</p>
+                                <h2 className='text-[2.5rem] font-semibold leading-[4rem] text-[#2F327D] sm:ml-24 2xl:ml-14 w-[24rem] mt-36 xs:mt-16'> One-on-One <span className='text-[#00CBB8]'>Discussions</span></h2>
+                                <p className='text-[#696984] text-[1.375rem] leading-[2.475rem] tracking-[0.0275rem] 2xl:ml-14 w-[32rem] mt-[1.25rem] sm:ml-24 xs:w-[90%]'>Teachers and teacher assistants can talk with students privately without leaving the Zoom environment.</p>
                             </div>
 
                         </div>
 
-                        <button className='text-[#49BBBD] text-[1.5rem] font-normal leading-[2.7rem] tracking-[0.03rem] w-[17.5rem] h-[5rem] rounded-[5rem] border border-[#49BBBD] block mx-auto text-center mt-[9.3rem]'>See more features</button>
+                        <button className='text-[#49BBBD] text-[1.5rem] font-normal leading-[2.7rem] tracking-[0.03rem] w-[17.5rem] h-[5rem] rounded-[5rem] border border-[#49BBBD] block mx-auto text-center mt-[8rem] mb-[3.6rem]'>See more features</button>
                     </div>
 
                 </div>

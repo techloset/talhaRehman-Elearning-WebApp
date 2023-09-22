@@ -9,7 +9,7 @@ function Footer() {
             <div className='flex xs:flex-col mt-[4.62rem] items-center'>
                 <div> <Image src={footerLogo} alt="logo"/> </div>
                 <hr className='w-20 bg-[#626381] border-[#626381]  sm:rotate-90 xs:my-4 ' />
-                <h2 className='text-[#fff] text-[1.375rem] leading-normal tracking-[0.055rem] font-semibold'>Virtual Class for Zoom</h2>
+                <h2 className='text-[#fff] text-[1.375rem] leading-normal tracking-[0.055rem] font-semibold sm:w-[10rem]'>Virtual Class for Zoom</h2>
             </div>
             <div className='mt-[6.44rem] '>
                 <p className='text-center text-[#B2B3CF] text-[1.625rem] font-medium tracking-[0.065rem] xs:w-[98%]'>Subscribe to get our Newsletter</p>
