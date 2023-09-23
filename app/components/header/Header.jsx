@@ -72,21 +72,51 @@ function Header() {
                 }`}
             >
               <ul className="items-center justify-center space-y-8 lg:flex lg:space-x-6 lg:space-y-0">
-                <li className="text-gray-600 hover:text-blue-600">
-
-                  Our team
-
-                </li>
-                <li className="text-gray-600 hover:text-blue-600">
-                  Tokens
-                </li>
-                <li className="text-gray-600 hover:text-blue-600">
-
-                  Connect wallet
-
-                </li>
-                <li className="text-gray-600 hover:text-blue-600">
-                  Lightpaper </li>
+              <Link href='/'>
+                    <li className="text-gray-600 hover:text-blue-600">
+                    Home
+                    </li>
+                  </Link>
+                  <Link href='/blog'>
+                    <li className="text-gray-600 hover:text-blue-600 mt-4">
+                    Blog
+                    </li>
+                  </Link>
+                  <Link href='/blogDetails'>
+                    <li className="text-gray-600 hover:text-blue-600 mt-4">
+                    Blog Details
+                    </li>
+                  </Link>
+                  <Link href='/membership'>
+                    <li className="text-gray-600 hover:text-blue-600 mt-4">
+                    Membership
+                    </li>
+                  </Link>
+                  <Link href='/course'>
+                    <li className="text-gray-600 hover:text-blue-600 mt-4">
+                    Course
+                    </li>
+                  </Link>
+                  <Link href='/courseDetails'>
+                    <li className="text-gray-600 hover:text-blue-600 mt-4">
+                    Course Details
+                    </li>
+                  </Link>
+                  <Link href='/checkout'>
+                    <li className="text-gray-600 hover:text-blue-600 mt-4">
+                    CheckOut
+                    </li>
+                  </Link>
+                  <Link href='/meeting'>
+                    <li className="text-gray-600 hover:text-blue-600 mt-4">
+                    Meeting
+                    </li>
+                  </Link>
+                  <Link href='/literatureCourse'>
+                    <li className="text-gray-600 hover:text-blue-600 mt-4">
+                    Literature Course
+                    </li>
+                  </Link>
               </ul>
             </div>
           </div>

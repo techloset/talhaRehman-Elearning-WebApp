@@ -1,7 +1,5 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import font from './lib/font'
 
 export const metadata = {
   title: 'E-Learning Web Application',
@@ -11,7 +9,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`overflow-x-hidden {inter.className}`}>{children}</body>
+      <body className={`overflow-x-hidden  ${font.inter} ${font.poppins} ${font.roboto} ${font.nunito}`}>{children}</body>
     </html>
   )
 }

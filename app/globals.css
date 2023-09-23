@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @font-face {
   font-family:BuenosBold;
   src: url('../public/fonts/buenos-aires-Trial/BuenosAires-Bold.ttf');
@@ -11,16 +12,7 @@
 }
 
 @layer components {
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=swap');
-  /* Roboto */
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-  /* Nuitin Sans */
-  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600;6..12,700&display=swap');
-
-  body {
-    font-family: 'Poppins', sans-serif;
-  }
-
+  
   .header-bg {
     background-image: url("../public/images/header-bg.svg");
     background-repeat: no-repeat;
@@ -138,9 +130,9 @@
     background-image: url("../public/images/searchBg.svg");
     background-repeat: no-repeat;
   }
-  .nunito{
+  /* .nunito{
     font-family: 'Nunito Sans', sans-serif;
-  }
+  } */
   .shadow{ 
     border-radius: 20px;
     background: #FFF;

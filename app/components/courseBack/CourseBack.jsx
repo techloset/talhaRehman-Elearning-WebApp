@@ -25,9 +25,9 @@ function CourseBack() {
   return (
     <>
          <div className="bg-[#9DCCFF] bg-opacity-20  ">
-        <div className=" mx-6 md:mx-20 xl:mx-24 2xl:mx-[120px] pt-[50px] pb-[57px]">
+        <div className=" mx-6 md:mx-20 xl:mx-24 2xl:ml-[110px] 2xl:mr-[113px] pt-[50px] pb-[57px]">
           <div className="flex justify-between">
-            <div className=" xl:text-[30px] text-xl sm:text-2xl mb-[50px] font-semibold ">
+            <div className=" xl:text-[30px] text-xl sm:text-2xl mb-[50px] font-semibold popins">
               Welcome back, ready for your next lesson?
             </div>
             <div className="text-[#49BBBD] text-xl xl:text-2xl font-bold  hidden md:block">
@@ -66,10 +66,10 @@ function CourseBack() {
           </div>
 
           <div className="flex justify-end me-3">
-            <button className="bg-[#49BBBD] bg-opacity-60 text-white py-2 px-4 rounded font-bold mr-2">
+            <button className="bg-[#49BBBD] bg-opacity-60 text-white py-[17px] px-[20px] rounded font-bold mr-2">
              <Image src={left} alt='left'/>
             </button>
-            <button className="bg-[#49BBBD]  text-white py-2 px-4 rounded font-bold">
+            <button className="bg-[#49BBBD]  text-white py-[17px] px-[20px] rounded font-bold">
              <Image src={right} alt='right'/>
             </button>
           </div>

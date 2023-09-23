@@ -42,16 +42,16 @@ function page() {
         <div className='mt-[4.81rem] 2xl:mx-[23.4rem]'>
           <div className="flex justify-between flex-wrap lg:flex-nowrap gap-7">
             {/* free */}
-            <div className="flex flex-col p-8  mx-auto 2xl:w-[23.125rem] 2xl:h-[33.5rem] text-gray-900 bg-white    ">
+            <div className="flex flex-col p-8  mx-auto 2xl:w-[23.125rem] 2xl:h-[33.5rem] text-gray-900 bg-white  font-['Inter',sans-serif]  ">
               <p className="text-[#49BBBD] font-semibold text-xl ">
                 Like a pusy
               </p>
 
-              <h3 className="mb-6 mt-4 text-5xl font-bold">
+              <h3 className="mb-6 mt-4 text-5xl font-bold  font-['Inter',sans-serif]">
                 Free <span className="text-xs font-bold ">/FOREVER</span>
               </h3>
 
-              <ul className="mb-8 space-y-4 text-left">
+              <ul className="mb-8 space-y-4 text-left font-['Inter',sans-serif]">
                 <li className="flex items-center space-x-3">
                   <Image src={tick} alt='tick' />
                   <span>Components-driven system</span>
@@ -65,14 +65,14 @@ function page() {
                   <span>Awesome Feather icons pack </span>
                 </li>
               </ul>
-              <div className="mt-auto">
+              <div className="mt-auto font-['Inter',sans-serif]">
                 <button className="text-[#49BBBD] text-lg font-bold border-gray-400 py-3 rounded-xl border-2 w-full">
                   Try for free
                 </button>
               </div>
             </div>
             {/* individual */}
-            <div className="flex flex-col p-8 mx-auto 2xl:w-[23.125rem] 2xl:h-[33.5rem] text-gray-900 bg-white rounded-lg border border-gray-100 shadow-xl  ">
+            <div className="flex flex-col p-8 mx-auto 2xl:w-[23.125rem] 2xl:h-[33.5rem] text-gray-900 bg-white rounded-lg border border-gray-100 shadow-xl font-['Inter',sans-serif] ">
               <div className="flex justify-between">
                 <div className="flex">
                   <p className="text-[#49BBBD] font-semibold text-xl">
@@ -113,12 +113,12 @@ function page() {
 
               <button
                 href="#"
-                className=" bg-[#49BBBD] rounded-xl text-white py-3  mt-9 text-whiterounded-xl border-2 ">
-                Regular liscence
+                className=" bg-[#49BBBD] rounded-xl text-white py-[14px]  mt-9  border-2 text-2xl font-['Inter',sans-serif]">
+                Regular license
               </button>
             </div>
             {/* corporate */}
-            <div className="flex flex-col p-8 mx-auto  2xl:w-[23.125rem] 2xl:h-[33.5rem] text-gray-900 bg-white rounded-lg   ">
+            <div className="flex flex-col p-8 mx-auto  2xl:w-[23.125rem] 2xl:h-[33.5rem] text-gray-900 bg-white rounded-lg  font-['Inter',sans-serif] ">
               <div className="flex">
                 <p className="text-[#49BBBD] font-semibold text-xl">
                   👥 Corporate
@@ -158,13 +158,13 @@ function page() {
       </div>
 
 
-      <div className="bg-[#252641] mt-[12rem] text-white flex flex-col justify-center  px-6 md:px-0 h-[459px] md:mx-16 mx-6  2xl:mx-[7.5rem] rounded-[37px] ">
+      <div className="bg-[#252641] mt-[12rem] text-white flex flex-col justify-center  px-6 md:px-0 h-[459px] md:mx-16 mx-6  2xl:mx-[7.5rem] rounded-[37px] font-['Inter',sans-serif]">
 
         <h1 className="xl:text-4xl lg:text-3xl md:text-2xl text-xl font-semibold text-center mt-[4.3rem]">
           Online coaching lessons for remote learning.
         </h1>
 
-        <p className=" md:text-xl xl:text-2xl max-w-[70.6rem] text-center leading-[2.7rem] mt-[1.87rem] mx-auto tracking-[0.03rem]">
+        <p className=" md:text-xl xl:text-2xl max-w-[73.6rem] text-center leading-[2.7rem] mt-[1.87rem] mx-auto tracking-[0.03rem]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempos Lorem ipsum dolor sitamet, consectetur adipiscing elit,
           sed do eiusmod tempor
@@ -177,13 +177,13 @@ function page() {
 
 
       {/*  */}
-      <div className='mt-28'>
-        <section className="mx-6 xl:mx-[101px]">
-          <h1 className="text-center text-xl sm:text-2xl lg:text-4xl font-semibold">
+      <div className='mt-28 '>
+        <section className="mx-6 xl:mx-[101px]  ">
+          <h1 className="text-center text-xl sm:text-2xl lg:text-4xl font-semibold font-['Inter',sans-serif]">
             Online coaching lessons for remote learning
           </h1>
 
-          <div className="questions mt-10">
+          <div className="questions mt-10 font-['Inter',sans-serif]">
             {Questions.map((question, index) => (
               <div key={index} className="border-b border-gray-300 rounded mb-4">
                 <div className="flex items-center justify-between py-4 cursor-pointer">
@@ -195,7 +195,7 @@ function page() {
                   </div>
                   <Image src={arrowDown} alt="arrow down" />
                 </div>
-                <div className="p-4">
+                <div className="p-4 ">
                   <p className="text-[#696984] max-w-[1634px] tracking-wide text-sm leading-[180%]">
                     {question.answer}
                   </p>

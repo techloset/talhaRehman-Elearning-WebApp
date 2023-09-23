@@ -11,7 +11,7 @@ import seeAll from '@/public/images/SeeAll.svg'
 function Explore() {
   return (
     <>
-    <div className='explore hidden 2xl:block overflow-x-hidden font-[roboto]'>
+    <div className='explore hidden 2xl:block overflow-x-hidden font-roboto'>
      <div className=" h-full mx-4 sm:mx-6 xl:ml-[155px] xl:mr-[4.5rem]">
         <h1 className="font-bold text-4xl mt-[16.4rem] font-[roboto]">Explore Courses</h1>
         <p className="text-gray-600 text-2xl mt-2 font-[roboto]">

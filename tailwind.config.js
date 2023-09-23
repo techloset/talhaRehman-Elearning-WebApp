@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+import font from './app/lib/font'
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -27,6 +28,13 @@ module.exports = {
       screens: {
         'xs': {'min': '10px', 'max': '576px'},
         // Customize screen size for all mobile devices min-width: 300px and max-width:576px
+      },
+      fontFamily:{
+        poppins: ["var(--poppins)"],
+        roboto : ["var(--roboto)", 'sans-serif'],
+        inter: ["var(--inter)", 'sans-serif'],
+        nunito : ["var(--nunito)", 'sans-serif'],
+      
       }
     },
   },

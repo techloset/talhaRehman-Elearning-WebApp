@@ -19,7 +19,7 @@ function page() {
                 <label htmlFor="userName" className='text-base text-[#000000]'>User name</label>
                 <input type="text" id='userName' placeholder='Enter your User name' className='mt-[0.75rem] xs:w-[19.8217rem] xs:h-[3.375rem] bg-[#fff] rounded-[2.5rem] border border-[#49BBBD] active:border-[#49BBBD] pl-[1.94rem] pb-[1rem] pt-[0.94rem] text-[#ACACAC] text-[0.9375rem] font-light' />
                 <label htmlFor="userPass" className='text-base text-[#000000] mt-[1.87rem]'>Password</label>
-                <input type="password" id='userPass' placeholder='Enter your User name' className='mt-[0.75rem] xs:w-[19.8217rem] xs:h-[3.375rem] bg-[#fff] rounded-[2.5rem] border border-[#49BBBD] active:border-[#49BBBD] pl-[1.94rem] pb-[1rem] pt-[0.94rem] text-[#ACACAC] text-[0.9375rem] font-light' />
+                <input type="password" id='userPass' placeholder='Enter your Password' className='mt-[0.75rem] xs:w-[19.8217rem] xs:h-[3.375rem] bg-[#fff] rounded-[2.5rem] border border-[#49BBBD] active:border-[#49BBBD] pl-[1.94rem] pb-[1rem] pt-[0.94rem] text-[#ACACAC] text-[0.9375rem] font-light' />
                 <Image  src={hidePass} alt='Passworrd hide' className='relative left-[90%] -top-9' />
                 <div className='flex justify-between mt-[1.37rem]'>
                     <div className='flex items-center gap-1'>

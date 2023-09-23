@@ -7,7 +7,7 @@ import ellipse2 from "../../../public/images/Ellipse13.svg"
 function Totc() {
   return (
    <>
-    <div className='mt-[19rem] overflow-x-hidden overflow-y-hidden '>
+    <div className='mt-[19rem] overflow-x-hidden overflow-y-hidden font-poppins'>
         <h2 className='text-[#2F327D] text-[2.75rem] font-semibold leading-[4.95rem] text-center'>What is <span className='text-[#00CBB8]'> TOTC?</span> </h2>
         <p className='xl:w-[60.8125rem] text-[#696984] text-[1.5rem] tracking-[0.03rem] leading-[2.7rem] mx-10 xl:mx-auto text-center mt-[1.25rem]'> TOTC is a platform that allows educators to create online classes whereby they can store the course materials online; manage assignments, quizzes and exams; monitor due dates; grade results and provide students with feedback all in one place.</p>
         <div className='2xl:mx-auto mt-[4.81rem] flex flex-wrap xl:flex-nowrap justify-center gap-[6.25rem]'>

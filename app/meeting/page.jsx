@@ -11,6 +11,7 @@ import meetingLock from '@/public/images/meetingLock.svg'
 import meetingCalander2 from '@/public/images/meetingCalander2.svg'
 import book1 from '@/public/images/meetingbook1.svg'
 import book2 from '@/public/images/meetingbook2.svg'
+import Link from 'next/link'
 
 function page() {
     return (
@@ -20,12 +21,14 @@ function page() {
                 <div className='2xl:ml-[6.06rem] xl:ml-[2rem] xs:pt-[2rem] pt-[6.06rem]'>
                     <div className='flex flex-wrap md:flex-nowrap xs:justify-center items-center gap-[3.12rem]'>
                         <div className='ml-5'>
+                            <Link href="./" >
                             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
                                 <rect width="50" height="50" fill="#49BBBD" />
                                 <line x1="12" y1="24.5" x2="38" y2="24.5" stroke="white" />
                                 <line x1="12.1582" y1="24.3011" x2="19.1582" y2="17.3011" stroke="white" />
                                 <line x1="12.6097" y1="24.623" x2="20.0744" y2="31.1251" stroke="white" />
                             </svg>
+                            </Link>
                         </div>
                         <div className='bg-[#fff] rounded-[1.625rem] xl:w-[66.8125rem] w-[90%] xl:h-[9.5625rem] pl-[2.19rem]'>
                             <div className='flex items-center justify-between  mt-[2.19rem] mr-[3.17rem]'>

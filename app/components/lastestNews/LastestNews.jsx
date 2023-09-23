@@ -33,10 +33,10 @@ function LastestNews() {
   return (
     <>
     <div className=" text-center mt-36 mx-auto xs:hidden   ">
-        <p className="text-[#2F327D] text-4xl   font-bold py-5 nunito">
+        <p className="text-[#2F327D] text-4xl   font-bold py-5 font-nunito">
           Latest News and Resources
         </p>
-        <p className="text-[#696984] text-2xl mt-5 nunito">
+        <p className="text-[#696984] text-2xl mt-5 font-nunito">
           See the developments that have occurred to TOTC in the world
         </p>
       </div>

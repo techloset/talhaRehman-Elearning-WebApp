@@ -42,11 +42,11 @@ function page() {
             <div className='bg-[#9DCCFF]/[0.2] flex flex-wrap xl:flex-nowrap justify-center xl:justify-normal '>
                 <div className='2xl:ml-[7.13rem] xl:ml-[3rem] pt-[4.81rem] pb-[6.31rem]'>
                     <h2 className='text-2xl font-bold text-[#000] xs:w-[90%]'>By Themadbrains in <span className='text-[#49BBBD]'>inspiration</span></h2>
-                    <h1 className='text-[#2F327D] text-[2.75rem] font-semibold sm:w-[41.875rem] mt-[1.5rem] xs:w-[95%]'>Why Swift UI Should Be on the Radar of Every Mobile Developer</h1>
-                    <p className='text-[1.5rem] text-[#696984] mt-[0.88rem] font-normal leading-[2.7rem] tracking-[0.03rem] sm:w-[43rem] xs:w-[905]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempos Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    <h1 className='text-[#2F327D] text-[2.75rem] font-semibold sm:w-[41.875rem] mt-[1.5rem] xs:w-[95%] 2xl:ml-1'>Why Swift UI Should Be on the Radar of Every Mobile Developer</h1>
+                    <p className='text-[1.5rem] text-[#696984] mt-[0.88rem] font-normal leading-[2.7rem] tracking-[0.03rem] sm:w-[43rem] xs:w-[905] 2xl:ml-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempos Lorem ipsum dolor sitamet, consectetur adipiscing elit, sed do eiusmod tempor</p>
                     <button className='text-[#fff] text-[1rem] font-bold w-[14.75rem] h-[3.9375rem] rounded-[0.75rem] bg-[#49BBBD] mt-[1.56rem]'>Start learning now</button>
                 </div>
-                <div className='2xl:ml-[11rem] mt-[4.37rem]'>
+                <div className='2xl:ml-[12rem] mt-[4.37rem]'>
                     <Image src={headerImg} alt='laptop' />
                 </div>
             </div>

@@ -7,14 +7,14 @@ import star from '../../../public/images/testStart.svg'
 function Testimonial() {
     return (
         <>
-            <div className="flex flex-col xl:flex-row mx-5 justify-between lg:mx-[0px] mt-32 2xl:ps-[160px] 2xl:pe-[180px] xs:pb-20">
+            <div className="flex flex-col xl:flex-row mx-5 justify-between lg:mx-[0px] mt-32 2xl:ps-[160px] 2xl:pe-[180px] xs:pb-20 ">
                 <div className="mx-5 lg:mx-16">
                     <div className="flex items-center">
                         <hr className='w-[80px] border border-[#525596] mr-[1.85rem]' />
-                        <p className="text-xl text-[#525596]">TESTIMONIAL</p>
+                        <p className="text-xl text-[#525596] font-nunito">TESTIMONIAL</p>
                     </div>
 
-                    <h1 className="text-6xl font-bold  text-[#525596] mt-8 nunito">
+                    <h1 className="text-6xl font-bold  text-[#525596] mt-8 font-nunito">
                         What They Say?
                     </h1>
 
@@ -55,10 +55,10 @@ function Testimonial() {
                     <Image src={testimonial} alt='testimonial' className='xl:absolute mx-auto  mt-6 2xl:-ms-20 rounded-[20px]' />
 
                     {/* testimonial */}
-                    <div class="p-6 hidden xl:block z-10 transform  lg:mt-[500px] ml-[10px] 2xl:mr-[4rem]  lg:w-[600px]  bg-white border-[#F67766] border-l-[14px]  border-r-0 border-t-0 border-b-0 rounded-lg shadow">
+                    <div class="p-6 hidden xl:block z-10 transform  lg:mt-[500px] ml-[10px] 2xl:mr-[4rem]  lg:w-[600px] font-nunito bg-white border-[#F67766] border-l-[14px]  border-r-0 border-t-0 border-b-0 rounded-lg shadow">
                         <div className="flex ">
                             <Image src={line} alt='lne' className='mr-6' />
-                            <p className="text-[22px] text-[#5F5F7E] nunito">
+                            <p className="text-[22px] text-[#5F5F7E] ">
                                 "Thank you so much for your help. It's exactly what I've been
                                 looking for. You won't regret it. It really saves me time and
                                 effort. TOTC is exactly what our business has been lacking."
@@ -66,12 +66,12 @@ function Testimonial() {
                         </div>
 
                         <div className=" mx-6 mt-4 flex ">
-                            <div className="text-2xl text-[#5F5F7E] nunito">Gloria Rose</div>
+                            <div className="text-2xl text-[#5F5F7E] ">Gloria Rose</div>
                             <div className="lg:ms-auto ">
                                 <div class="flex justify-end">
                                     <Image src={star} alt='star' />
                                 </div>
-                                <p className="text-[#80819A] mt-3 nunito">12 reviews at Yelp</p>
+                                <p className="text-[#80819A] mt-3 ">12 reviews at Yelp</p>
                             </div>
                         </div>
                     </div>
