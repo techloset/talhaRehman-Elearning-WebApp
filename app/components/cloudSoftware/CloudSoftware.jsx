@@ -32,10 +32,10 @@ function CloudSoftware() {
     <p className='text-[#696984] text-[1.5rem] font-normal leading-[2.7rem] text-center xl:w-[52.3125rem] mx-10 xl:mx-auto mt-[1.25rem]'>TOTC is one powerful online software suite that combines all the tools needed to run a successful school or office.</p>
     <div className='2xl:ml-[14.06rem] 2xl:justify-normal mt-[2.44rem] flex flex-wrap xl:flex-nowrap justify-center gap-[3.75rem] '>
         {Cards.map((info,index)=>(
-        <div className='bg-[#fff] card relative  top-32  xs:w-[90%] xs:h-auto w-[28.125rem] h-[26.875rem]'>
+        <div className='bg-[#fff] card relative  top-32  xs:w-[90%] xs:h-auto w-[28.125rem] h-[26.875rem] pb'>
             <div className='flex justify-center absolute sm:left-[30%] xs:left-[22%] -top-20'>{info.mainImg}</div>
-            <h2 className={`text-[#2F327D] text-center text-[1.875rem] font-medium leading-normal w-[20.3125rem] xs:w-[85%] mx-auto pt-[7.62rem] ${index === 2 ? 'mt-[2rem] mb-12' : 'mt-[1rem]'}`}>{info.heading}</h2>
-            <p className={`text-[#696984] text-center text-[1.25rem] font-normal leading-[2.25rem] w-[20.5rem] xs:w-[85%] mx-auto mt-[1.5rem] ${index === 2 ? 'w-[17rem]' : ''}`}>{info.paragraph}</p>
+            <h2 className={`text-[#2F327D] text-center text-[1.875rem] font-medium leading-normal w-[21.3125rem] xs:w-[85%] mx-auto pt-[7.62rem] ${index === 2 ? 'mt-[2rem] mb-12' : 'mt-[1rem]'}`}>{info.heading}</h2>
+            <p className={`text-[#696984] text-center text-[1.25rem] font-normal leading-[2.25rem] w-[23.5rem] m xs:w-[85%] mx-auto mt-[1.5rem] font-poppins ${index === 2 ? 'w-[19.5rem]' : ''}`}>{info.paragraph}</p>
         </div>
         ))}
     </div>

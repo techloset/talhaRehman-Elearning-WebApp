@@ -21,20 +21,20 @@ function page() {
             Cart Type
           </p>
 
-          <div className="flex sm:flex-row flex-col gap-[20px] mt-[38px] mb-[84px] ">
-            <div className="w-[139px] mx-auto border rounded-[0.625rem] border-[#49BBBD]">
+          <div className="flex sm:flex-row flex-col gap-[20px] mt-[38px] mb-[84px] items-center ">
+            <div className="w-[139px] h-[92px] border rounded-[0.625rem] border-[#49BBBD]">
               <Image src={payapl} alt='paypal' className='mx-auto' />
             </div>
 
-            <div className="rounded-lg  w-[139px] mx-auto  ">
-              <Image src={american} alt='american' />
+            <div className="rounded-lg  w-[139px] h-[92px]  ">
+              <Image src={american} alt='american' className='h-[92px]' />
             </div>
 
-            <div className="rounded-lg  w-[139px] mx-auto ">
-              <Image src={visa} alt="visa" />
+            <div className="rounded-lg  w-[139px] h-[92px] ">
+              <Image src={visa} alt="visa" className='h-[92px]' />
             </div>
 
-            <div className="rounded-lg h-[93px] mx-auto w-[139px]  border-2 md:ml-3 flex items-center justify-center">
+            <div className="rounded-lg h-[92px]  w-[139px]  border-2 md:ml-3 flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 100 60"
@@ -188,12 +188,12 @@ function page() {
 
 
       <div className='pb-16'>
-        <div className="mx-6 md:mx-16 lg:mx-28 2xl:mt-[10rem] lg:mt-[5rem]">
+        <div className="mx-6 md:mx-16 lg:ml-[120px] 2xl:mt-[10rem] lg:mt-[5rem]">
           <div className="flex justify-between">
             <div className="font-medium text-xl md:text-2xl xl:text-3xl mb-16">
               Top Education offers and deals are listed here
             </div>
-            <div className="text-[#49BBBD] text-[20px] font-bold hidden md:block">
+            <div className="text-[#49BBBD] text-[20px] font-bold hidden md:block 2xl:mr-10">
               See all
             </div>
           </div>
@@ -203,14 +203,14 @@ function page() {
             >
               <div className="bg-black bg-opacity-30 h-full px-[50px] py-[40px]">
                 <div className="">
-                  <button className=" text-white bg-[#49BBBD] h-[100px] w-[100px]   rounded-lg  mb-7 text-2xl font-bold  ">
+                  <button className=" text-white bg-[#49BBBD] h-[100px] w-[100px]   rounded-lg  mb-7 text-2xl 2xl:text-[50px] font-bold  ">
                     50%
                   </button>
-                  <h4 className=" font-semibold text-[32px]  text-white mb-9">
+                  <h4 className=" text-[28px] text-[#fff] font-bold mb-1 ">
                     Lorem ipsum dolor
                   </h4>
-                  <p className=" leading-[180%]  text-2xl text-gray-100">
-                    Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor
+                  <p className=" text-xl text-[#fff] font-medium leading-[36px] tracking-[0.4px] sm:w-[19.6rem]">
+                    Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor <br />
                     Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor
                   </p>
                 </div>
@@ -220,14 +220,14 @@ function page() {
             >
               <div className="bg-black bg-opacity-30 h-full px-[50px] py-[40px]">
                 <div className="">
-                  <button className=" text-white bg-[#49BBBD] h-[100px] w-[100px]   rounded-lg  mb-7 text-2xl font-bold  ">
+                  <button className=" text-white bg-[#49BBBD] h-[100px] w-[100px]   rounded-lg  mb-7 text-2xl 2xl:text-[50px]  font-bold  ">
                     10%
                   </button>
-                  <h4 className=" font-semibold text-[32px]  text-white mb-9">
+                  <h4 className=" text-[28px] text-[#fff] font-bold mb-1">
                     Lorem ipsum dolor
                   </h4>
-                  <p className=" leading-[180%]  text-2xl text-gray-100">
-                    Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor
+                  <p className=" text-xl text-[#fff] font-medium leading-[36px] tracking-[0.4px] sm:w-[19.6rem]">
+                  Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor <br />
                     Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor
                   </p>
                 </div>
@@ -238,14 +238,14 @@ function page() {
             >
               <div className="bg-black bg-opacity-30 h-full px-[50px] py-[40px]">
                 <div className="">
-                  <button className=" text-white bg-[#49BBBD] h-[100px] w-[100px]   rounded-lg  mb-7 text-2xl font-bold  ">
+                  <button className=" text-white bg-[#49BBBD] h-[100px] w-[100px]   rounded-lg  mb-7 text-2xl 2xl:text-[50px]  font-bold  ">
                     50%
                   </button>
-                  <h4 className=" font-semibold text-[32px]  text-white mb-9">
+                  <h4 className=" text-[28px] text-[#fff] font-bold mb-1">
                     Lorem ipsum dolor
                   </h4>
-                  <p className=" leading-[180%]  text-2xl text-gray-100">
-                    Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor
+                  <p className=" text-xl text-[#fff] font-medium leading-[36px] tracking-[0.4px] sm:w-[19.6rem]">
+                  Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor <br />
                     Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor
                   </p>
                 </div>
