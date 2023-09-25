@@ -12,7 +12,7 @@ import featurePic4 from '../../../public/images/FeaturePic4.svg'
 function OurFeatures() {
     return (
         <>
-            <div className='mt-[11.31rem] overflow-x-hidden font-poppins'>
+            <div className='pt-[11.31rem] overflow-x-hidden font-poppins'>
                 <h2 className='text-[2.25rem] font-bold leading-[4.05rem] text-[#2F327D] text-center'>Our <span className='text-[#00CBB8]'> Features</span></h2>
                 <p className='text-[1.5rem] text-[#696984] text-center font-normal leading-[2.7rem] mt-[1.25rem]'>This very extraordinary feature, can make learning activities more efficient</p>
                 <div className='2xl:ml-[10.5rem] xl:ml-12 mt-[11rem] '>
