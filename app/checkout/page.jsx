@@ -12,7 +12,7 @@ function page() {
     <>
       {/* Header */}
       <Header />
-      <div className="flex 2xl:flex-row flex-col gap-8 justify-between mx-6 md:mx-[120px] mt-[90px] mb-[158px]">
+      <div className="flex 2xl:flex-row flex-col gap-8 justify-between mx-6 md:mx-[120px] mt-[90px] mb-[158px] font-poppins">
 
         <div className="p-[50px] shadow-xl  2xl:w-[962px] 2xl:h-[909px] rounded-2xl ">
           <h1 className="font-semibold text-2xl md:text-4xl">Checkout</h1>
@@ -187,7 +187,7 @@ function page() {
       </div>
 
 
-      <div className='pb-16'>
+      <div className='pb-16 font-poppins'>
         <div className="mx-6 md:mx-16 lg:ml-[120px] 2xl:mt-[10rem] lg:mt-[5rem]">
           <div className="flex justify-between">
             <div className="font-medium text-xl md:text-2xl xl:text-3xl mb-16">
@@ -203,7 +203,7 @@ function page() {
             >
               <div className="bg-black bg-opacity-30 h-full px-[50px] py-[40px]">
                 <div className="">
-                  <button className=" text-white bg-[#49BBBD] h-[100px] w-[100px]   rounded-lg  mb-7 text-2xl 2xl:text-[50px] font-bold  ">
+                  <button className=" text-white bg-[#49BBBD] h-[124px] w-[127px]     rounded-lg  mb-7 text-2xl 2xl:text-[50px] font-bold  ">
                     50%
                   </button>
                   <h4 className=" text-[28px] text-[#fff] font-bold mb-1 ">
@@ -220,7 +220,7 @@ function page() {
             >
               <div className="bg-black bg-opacity-30 h-full px-[50px] py-[40px]">
                 <div className="">
-                  <button className=" text-white bg-[#49BBBD] h-[100px] w-[100px]   rounded-lg  mb-7 text-2xl 2xl:text-[50px]  font-bold  ">
+                  <button className=" text-white bg-[#49BBBD] h-[124px] w-[127px]    rounded-lg  mb-7 text-2xl 2xl:text-[50px]  font-bold  ">
                     10%
                   </button>
                   <h4 className=" text-[28px] text-[#fff] font-bold mb-1">
@@ -238,7 +238,7 @@ function page() {
             >
               <div className="bg-black bg-opacity-30 h-full px-[50px] py-[40px]">
                 <div className="">
-                  <button className=" text-white bg-[#49BBBD] h-[100px] w-[100px]   rounded-lg  mb-7 text-2xl 2xl:text-[50px]  font-bold  ">
+                  <button className=" text-white bg-[#49BBBD] h-[124px] w-[127px]   rounded-lg  mb-7 text-2xl 2xl:text-[50px]  font-bold  ">
                     50%
                   </button>
                   <h4 className=" text-[28px] text-[#fff] font-bold mb-1">

@@ -17,8 +17,7 @@
 
 @layer components {
 
-  
-  
+
   .header-bg {
     background-image: url("../public/images/header-bg.svg");
     background-repeat: no-repeat;
@@ -40,7 +39,7 @@
   .card {
     border-radius: 1.25rem;
     background: #FFF;
-    box-shadow: 0px 10px 60px 0px rgba(38, 45, 118, 0.08);
+    box-shadow: 0px 10px 60px 0px rgba(38, 45, 118, 0.08) ;
   }
 
   .totc1 {
@@ -136,9 +135,7 @@
     background-image: url("../public/images/searchBg.svg");
     background-repeat: no-repeat;
   }
-  /* .nunito{
-    font-family: 'Nunito Sans', sans-serif;
-  } */
+
   .shadow{ 
     border-radius: 20px;
     background: #FFF;
