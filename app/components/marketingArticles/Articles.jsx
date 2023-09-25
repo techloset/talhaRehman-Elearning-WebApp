@@ -33,7 +33,7 @@ function Articles() {
     ]
     return (
         <>
-            <div className='xl:mx-16'> 
+            <div className='xl:mx-16 font-poppins'> 
                 <div className='flex  justify-between 2xl:ml-[7.5rem]  pt-[5.81rem] mr-[5.56rem]'>
                     <h2 className='text-[#000000] text-[1.875rem] font-medium tracking-[0.0375rem] xs:w-[90%]'>Marketing Articles</h2>
                     <p className='text-[#49BBBD] text-[1.25rem] font-bold xs:hidden'>See all</p>

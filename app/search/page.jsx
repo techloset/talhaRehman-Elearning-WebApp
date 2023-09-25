@@ -11,6 +11,7 @@ import profile4 from '@/public/images/searchProfile4.svg'
 import twitter  from'@/public/images/searchTwitter.svg'
 import facebook  from'@/public/images/searchFacebook.svg'
 import instagram  from'@/public/images/seacrhInstagram.svg'
+import searchMeetings from'@/public/images/searchMeeting.svg'
 
 function page() {
   return (
@@ -114,8 +115,43 @@ function page() {
 
       </div>
 
+      {/* Cards */}
+      <div className='mt-16 mb-[65px]' >
+        <Cards></Cards>
+        <Cards></Cards>
+      </div>
+
+    {/*  */}
+    <div className='font-poppins mb-[65px]'>
+      <div className='rounded-[20px] bg-[#9DCCFF]/[0.2] flex gap-5  w-[86%] xs:w-[98%] mx-auto flex-wrap justify-center 2xl:flex-nowrap '>
+        <div className='mr-[250px] ml-[133px] xs:mr-5 xs:ml-6 mb-10'>
+          <h2 className='text-[#252641] text-[30px] font-semibold mt-[99px]  w-[20rem] xs:w-[92%]'>
+          Know about learning learning platform
+          </h2>
+          <div className='mt-[35px] flex gap-5 items-center'>
+            <div className='bg-[#55EFC4]/[0.48] w-[20px] h-[20px] rounded-full'></div>
+            <p className='font-inter text-[18px] text-[#2D3436]'>Free E-book, video & consolation</p>
+          </div>
+          <div className='mt-[10px] flex gap-5 items-center'>
+            <div className='bg-[#55EFC4]/[0.48] w-[20px] h-[20px] rounded-full'></div>
+            <p className='font-inter text-[18px] text-[#2D3436]'>Top instructors from around world</p>
+          </div>
+          <div className='mt-[10px] flex gap-5 items-center'>
+            <div className='bg-[#55EFC4]/[0.48] w-[20px] h-[20px] rounded-full'></div>
+            <p className='font-inter text-[18px] text-[#2D3436]'>Top courses from your team</p>
+          </div>
+          <button className='font-bold text-[24px] bg-[#49BBBD] rounded-[12px] w-[309px] h-[63px] mt-6  text-[#fff]'>Start learning now</button>
+        </div>
+        <div className='mt-10'>
+          <Image src={searchMeetings} alt='Meetings' />
+
+        </div>
+
+      </div>
+    </div>
+
     {/*  Recommended for you*/}
-    <div className='bg-[#9DCCFF]/[0.2]'>
+    <div className='bg-[#9DCCFF]/[0.2] font-poppins'>
       <div className='flex justify-between items-center ml-[7.5rem] pt-[6.3rem] mr-[8.9rem] xs:mx-10'>
         <h2 className='text-[#000000] text-[1.875rem] font-medium tracking-[0.0375rem]'>Recommended for you</h2>
         <h3 className='text-[#49BBBD] text-[1.25rem] font-bold hidden md:block'>See all</h3>
@@ -125,7 +161,7 @@ function page() {
 
 
     {/* What Our Student have to say */}
-    <div className="bg-[#9DCCFF] bg-opacity-20 pb-[80px]">
+    <div className="bg-[#9DCCFF] bg-opacity-20 pb-[80px] font-poppins">
         <div className="xl:mx-28 lg:mx-16 2xl:mx-[139px]  mx-6">
           <p className="lg:text-3xl text-2xl font-semibold py-[70px]">
             What our students have to say
@@ -165,13 +201,13 @@ function page() {
       </div>
 
     {/* top */}
-    <div className='pb-16'>
-        <div className="mx-6 md:mx-16 lg:mx-28 2xl:mt-[10rem] lg:mt-[5rem]">
+    <div className='pb-16 font-poppins'>
+        <div className="mx-6 md:mx-16 lg:ml-[120px] 2xl:mt-[10rem] lg:mt-[5rem]">
           <div className="flex justify-between">
             <div className="font-medium text-xl md:text-2xl xl:text-3xl mb-16">
               Top Education offers and deals are listed here
             </div>
-            <div className="text-[#49BBBD] text-[20px] font-bold hidden md:block">
+            <div className="text-[#49BBBD] text-[20px] font-bold hidden md:block 2xl:mr-10">
               See all
             </div>
           </div>
@@ -181,14 +217,14 @@ function page() {
             >
               <div className="bg-black bg-opacity-30 h-full px-[50px] py-[40px]">
                 <div className="">
-                  <button className=" text-white bg-[#49BBBD] h-[100px] w-[100px]   rounded-lg  mb-7 text-2xl font-bold  ">
+                  <button className=" text-white bg-[#49BBBD] h-[124px] w-[127px]     rounded-lg  mb-7 text-2xl 2xl:text-[50px] font-bold  ">
                     50%
                   </button>
-                  <h4 className=" font-semibold text-[32px]  text-white mb-9">
+                  <h4 className=" text-[28px] text-[#fff] font-bold mb-1 ">
                     Lorem ipsum dolor
                   </h4>
-                  <p className=" leading-[180%]  text-2xl text-gray-100">
-                    Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor
+                  <p className=" text-xl text-[#fff] font-medium leading-[36px] tracking-[0.4px] sm:w-[19.6rem]">
+                    Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor <br />
                     Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor
                   </p>
                 </div>
@@ -198,14 +234,14 @@ function page() {
             >
               <div className="bg-black bg-opacity-30 h-full px-[50px] py-[40px]">
                 <div className="">
-                  <button className=" text-white bg-[#49BBBD] h-[100px] w-[100px]   rounded-lg  mb-7 text-2xl font-bold  ">
+                  <button className=" text-white bg-[#49BBBD] h-[124px] w-[127px]    rounded-lg  mb-7 text-2xl 2xl:text-[50px]  font-bold  ">
                     10%
                   </button>
-                  <h4 className=" font-semibold text-[32px]  text-white mb-9">
+                  <h4 className=" text-[28px] text-[#fff] font-bold mb-1">
                     Lorem ipsum dolor
                   </h4>
-                  <p className=" leading-[180%]  text-2xl text-gray-100">
-                    Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor
+                  <p className=" text-xl text-[#fff] font-medium leading-[36px] tracking-[0.4px] sm:w-[19.6rem]">
+                  Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor <br />
                     Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor
                   </p>
                 </div>
@@ -216,14 +252,14 @@ function page() {
             >
               <div className="bg-black bg-opacity-30 h-full px-[50px] py-[40px]">
                 <div className="">
-                  <button className=" text-white bg-[#49BBBD] h-[100px] w-[100px]   rounded-lg  mb-7 text-2xl font-bold  ">
+                  <button className=" text-white bg-[#49BBBD] h-[124px] w-[127px]   rounded-lg  mb-7 text-2xl 2xl:text-[50px]  font-bold  ">
                     50%
                   </button>
-                  <h4 className=" font-semibold text-[32px]  text-white mb-9">
+                  <h4 className=" text-[28px] text-[#fff] font-bold mb-1">
                     Lorem ipsum dolor
                   </h4>
-                  <p className=" leading-[180%]  text-2xl text-gray-100">
-                    Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor
+                  <p className=" text-xl text-[#fff] font-medium leading-[36px] tracking-[0.4px] sm:w-[19.6rem]">
+                  Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor <br />
                     Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor
                   </p>
                 </div>

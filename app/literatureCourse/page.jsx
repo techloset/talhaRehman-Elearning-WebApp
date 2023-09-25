@@ -47,7 +47,7 @@ function page() {
       {/* Header */}
       <Header />
 
-      <div className='2xl:mx-[7.5rem] xl:mx-[2.5rem] lg:mx-[1.5rem]'>
+      <div className='2xl:mx-[7.5rem] xl:mx-[2.5rem] lg:mx-[1.5rem] font-poppins'>
 
         <div className='literatureMain lg:pl-[3.12rem] sm:pl-2 pt-[1.63rem] pb-[1.63rem] flex flex-wrap lg:flex-nowrap sm:justify-center '>
           <div className='bg-[#fff] rounded-[22.6875rem] min-w-[22.6875rem] max-h-[22.6875rem] xs:min-w-[18rem]  '>
@@ -58,10 +58,10 @@ function page() {
               <h2 className='text-[#000000] text-[1.875rem] font-medium tracking-[0.0375rem] leading-normal'>John Anderson</h2>
               <button className='text-[#fff] text-[1.5rem] font-bold bg-[#49BBBD] rounded-[0.75rem] w-[11.44769rem] h-[3.9375rem]'>Enroll Now</button>
             </div>
-            <p className='text-[rgba(45,52,54,0.70)] text-[1.125rem] leading-[2rem] mt-[0.44rem]'>Assistant Professor at Mcmaster University</p>
-            <p className='text-[#2D3436] text-[1.5625rem] leading-[2rem] mt-[0.94rem] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enum ad minim veniam, quis nostrud</p>
-            <div className='flex xs:flex-wrap justify-around mt-[1.56rem]'>
-              <div className='flex items-center gap-1'>
+            <p className='text-[rgba(45,52,54,0.70)] text-[1.125rem] leading-[2rem] mt-[0.44rem] font-inter'>Assistant Professor at Mcmaster University</p>
+            <p className='text-[#2D3436] text-[1.5625rem] leading-[2rem] mt-[0.94rem] font-inter'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enum ad minim veniam, quis nostrud</p>
+            <div className='flex xs:flex-wrap justify-around mt-[1.56rem] font-inter'>
+              <div className='flex items-center gap-1 font-inter'>
                 <Image src={start} alt="Start" />
                 <p className='text-[rgba(45,52,54,0.80)] text-[0.9375rem] leading-[2rem]'>4.9 instructor Rating</p>
               </div>
@@ -82,7 +82,7 @@ function page() {
         </div>
 
 
-        <div className='mt-[4.25rem] flex xs:ml-3 flex-wrap xs:justify-center lg:flex-nowrap gap-[1.61rem]'>
+        <div className='mt-[4.25rem] flex xs:ml-3 flex-wrap xs:justify-center lg:flex-nowrap gap-[1.61rem] font-poppins'>
           <div className='text-[#696969] text-[1.5rem] font-bold bg-[rgba(187,187,187,0.50)] rounded-[0.75rem] w-[11.44rem] h-[3.9375rem] flex justify-center items-center'>
             <p>About</p>
           </div>
@@ -124,7 +124,7 @@ function page() {
             ))}
           </div>
           {/* Pagination */}
-          <div className='flex justify-center mt-[3.23rem] pb-[3.25rem]'>
+          <div className='flex justify-center mt-[3.23rem] pb-[3.25rem] font-poppins'>
             <nav class="isolate inline-flex -space-x-px rounded-md shadow-sm" aria-label="Pagination">
               <a href="#" class="relative inline-flex items-center  px-3 py-3 bg-[rgba(73,187,189,0.20)] text-[#49BBBD] font-black hover:bg-gray-50 focus:z-20 focus:outline-offset-0">
                 <span class="sr-only">Previous</span>

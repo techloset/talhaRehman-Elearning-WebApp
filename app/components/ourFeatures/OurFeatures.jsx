@@ -47,7 +47,7 @@ function OurFeatures() {
                     <div className='mt-[15rem] xs:mt-[2rem]'>
                         <div className='grid grid-cols-12 '>
                             <div className='xl:col-span-6 col-span-12 mx-auto xl:mx-0'>
-                                <h2 className='text-[2.5rem] font-semibold leading-[4rem] text-[#2F327D] sm:ml-24 w-[24rem] xs:w-[95%] mt-48'> <span className='text-[#00CBB8]'>Tools</span> For Teachers And Learners</h2>
+                                <h2 className='text-[2.5rem] font-semibold leading-[4rem] text-[#2F327D] sm:ml-24 w-[24rem] xs:w-[95%] mt-28'> <span className='text-[#00CBB8]'>Tools</span> For Teachers And Learners</h2>
                                 <p className='text-[#696984] text-[1.375rem] leading-[2.475rem] tracking-[0.0275rem] w-[33rem] xs:w-[90%] mt-[1.25rem] sm:ml-24'>Class has a dynamic set of teaching tools built to be deployed and used during class.
                                     Teachers can handout assignments in real-time for students to complete and submit.</p>
                             </div>
