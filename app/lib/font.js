@@ -1,8 +1,9 @@
-import { Poppins, Roboto, Nunito, Inter } from "next/font/google"
+import {Poppins, Roboto, Nunito, Inter } from "next/font/google"
+
 
 const poppins =  Poppins({
-    weight: ["400", "500", "600", "700"],
-    subsets: ['latin'],
+    weight: ["400","700"],
+    subsets: ["latin"],
     variable: "--poppins",
     display: "swap"
 })

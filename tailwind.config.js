@@ -30,7 +30,8 @@ module.exports = {
         // Customize screen size for all mobile devices min-width: 300px and max-width:576px
       },
       fontFamily:{
-        poppins: ["var(--poppins)"],
+        pop:['Poppins', 'sans-serif'],
+        poppins: ["var(--poppins)",'sans-serif'],
         roboto : ["var(--roboto)", 'sans-serif'],
         inter: ["var(--inter)", 'sans-serif'],
         nunito : ["var(--nunito)", 'sans-serif'],

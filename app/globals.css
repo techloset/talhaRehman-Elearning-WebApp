@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @font-face {
   font-family:BuenosBold;
@@ -11,7 +12,12 @@
   src: url('../public/fonts/buenos-aires-Trial/BuenosAires-Regular.ttf');
 }
 
+
+
+
 @layer components {
+
+  
   
   .header-bg {
     background-image: url("../public/images/header-bg.svg");
