@@ -8,18 +8,19 @@ import profile1 from '@/public/images/searchProfile1.svg'
 import profile2 from '@/public/images/searchProfile2.svg'
 import profile3 from '@/public/images/searchProfile3.svg'
 import profile4 from '@/public/images/searchProfile4.svg'
-import twitter  from'@/public/images/searchTwitter.svg'
-import facebook  from'@/public/images/searchFacebook.svg'
-import instagram  from'@/public/images/seacrhInstagram.svg'
-import searchMeetings from'@/public/images/searchMeeting.svg'
+import twitter from '@/public/images/searchTwitter.svg'
+import facebook from '@/public/images/searchFacebook.svg'
+import instagram from '@/public/images/seacrhInstagram.svg'
+import searchMeetings from '@/public/images/searchMeeting.svg'
+import creator1 from '@/public/images/creator1.svg'
 
 function page() {
   return (
     <>
-    {/* Header */}
-    <Header/>
-    {/*  */}
-    <div className='searchBg' >
+      {/* Header */}
+      <Header />
+      {/*  */}
+      <div className='searchBg' >
 
         <div className="flex  py-[80px] flex-col items-center justify-center gap-5">
           <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row w-11/12 sm:w-3/4 2xl:w-[1319px]">
@@ -34,9 +35,9 @@ function page() {
               </button>
             </div>
           </div>
-         
+
           <div className="flex  w-11/12 2xl:w-[1319px] flex-wrap 2xl:flex-nowrap justify-center 2xl:justify-between ">
-        
+
             <select className="block mx-auto xl:mx-0 text-center font-semibold w-fit text-2xl border-r-[12px] border-transparent p-[18px] border border-gray-300 xl:h-[73px] bg-white rounded-[10px] shadow-sm">
               <option value="" className="">
                 Subject 1
@@ -48,7 +49,7 @@ function page() {
                 Subject3
               </option>
             </select>
-        
+
             <select className="block mx-auto xl:mx-0 text-center font-semibold w-fit text-2xl border-r-[12px] border-transparent p-[18px] border border-gray-300 xl:h-[73px] bg-white rounded-[10px] shadow-sm">
               <option value="" className="">
                 Partner 1
@@ -60,7 +61,7 @@ function page() {
                 Partner 3
               </option>
             </select>
-       
+
             <select className="block mx-auto xl:mx-0 text-center font-semibold w-fit text-2xl border-r-[12px] border-transparent p-[18px] border border-gray-300 xl:h-[73px] bg-white rounded-[10px] shadow-sm">
               <option value="" className="">
                 Program 1
@@ -72,19 +73,19 @@ function page() {
                 Program 3
               </option>
             </select>
-        
+
             <select className="block mx-auto xl:mx-0 text-center font-semibold w-fit text-2xl border-r-[12px] border-transparent p-[18px] border border-gray-300 xl:h-[73px] bg-white rounded-[10px] shadow-sm">
               <option value="" className="">
                 Language 1
               </option>
               <option value="" className="">
                 Language 2
-              </option> 
+              </option>
               <option value="" className="">
                 Language 3
               </option>
             </select>
-        
+
             <select className="block mx-auto xl:mx-0 text-center font-semibold w-fit text-2xl border-r-[12px] border-transparent p-[18px] border border-gray-300 xl:h-[73px] bg-white rounded-[10px] shadow-sm">
               <option value="" className="">
                 Availability 1
@@ -96,8 +97,8 @@ function page() {
                 Availability 3
               </option>
             </select>
-         
-       
+
+
             <select className="block mx-auto xl:mx-0 text-center font-semibold w-fit text-2xl border-r-[12px] border-transparent p-[18px] border border-gray-300 xl:h-[73px] bg-white rounded-[10px] shadow-sm">
               <option value="" className="">
                 Learning Type 1
@@ -109,7 +110,7 @@ function page() {
                 Learning Type 3
               </option>
             </select>
- 
+
           </div>
         </div>
 
@@ -121,53 +122,69 @@ function page() {
         <Cards></Cards>
       </div>
 
-    {/*  */}
-    <div className='font-poppins mb-[65px]'>
-      <div className='rounded-[20px] bg-[#9DCCFF]/[0.2] flex gap-5  w-[86%] xs:w-[98%] mx-auto flex-wrap justify-center 2xl:flex-nowrap '>
-        <div className='mr-[250px] ml-[133px] xs:mr-5 xs:ml-6 mb-10'>
-          <h2 className='text-[#252641] text-[30px] font-semibold mt-[99px]  w-[20rem] xs:w-[92%]'>
-          Know about learning learning platform
-          </h2>
-          <div className='mt-[35px] flex gap-5 items-center'>
-            <div className='bg-[#55EFC4]/[0.48] w-[20px] h-[20px] rounded-full'></div>
-            <p className='font-inter text-[18px] text-[#2D3436]'>Free E-book, video & consolation</p>
+      {/*  */}
+      <div className='font-poppins mb-[65px]'>
+        <div className='rounded-[20px] bg-[#9DCCFF]/[0.2] flex gap-5  w-[86%] xs:w-[98%] mx-auto flex-wrap justify-center 2xl:flex-nowrap '>
+          <div className='mr-[250px] ml-[133px] xs:mr-5 xs:ml-6 mb-10'>
+            <h2 className='text-[#252641] text-[30px] font-semibold mt-[99px]  w-[20rem] xs:w-[92%]'>
+              Know about learning learning platform
+            </h2>
+            <div className='mt-[35px] flex gap-5 items-center'>
+              <div className='bg-[#55EFC4]/[0.48] w-[20px] h-[20px] rounded-full'></div>
+              <p className='font-inter text-[18px] text-[#2D3436]'>Free E-book, video & consolation</p>
+            </div>
+            <div className='mt-[10px] flex gap-5 items-center'>
+              <div className='bg-[#55EFC4]/[0.48] w-[20px] h-[20px] rounded-full'></div>
+              <p className='font-inter text-[18px] text-[#2D3436]'>Top instructors from around world</p>
+            </div>
+            <div className='mt-[10px] flex gap-5 items-center'>
+              <div className='bg-[#55EFC4]/[0.48] w-[20px] h-[20px] rounded-full'></div>
+              <p className='font-inter text-[18px] text-[#2D3436]'>Top courses from your team</p>
+            </div>
+            <button className='font-bold text-[24px] bg-[#49BBBD] rounded-[12px] w-[309px] h-[63px] mt-6  text-[#fff]'>Start learning now</button>
           </div>
-          <div className='mt-[10px] flex gap-5 items-center'>
-            <div className='bg-[#55EFC4]/[0.48] w-[20px] h-[20px] rounded-full'></div>
-            <p className='font-inter text-[18px] text-[#2D3436]'>Top instructors from around world</p>
+          <div className='mt-10'>
+            <Image src={searchMeetings} alt='Meetings' />
+
           </div>
-          <div className='mt-[10px] flex gap-5 items-center'>
-            <div className='bg-[#55EFC4]/[0.48] w-[20px] h-[20px] rounded-full'></div>
-            <p className='font-inter text-[18px] text-[#2D3436]'>Top courses from your team</p>
-          </div>
-          <button className='font-bold text-[24px] bg-[#49BBBD] rounded-[12px] w-[309px] h-[63px] mt-6  text-[#fff]'>Start learning now</button>
+
         </div>
-        <div className='mt-10'>
-          <Image src={searchMeetings} alt='Meetings' />
+      </div>
+
+      {/*  Recommended for you*/}
+      <div className='bg-[#9DCCFF]/[0.2] pb-[213px] font-poppins'>
+        <div className='flex justify-between items-center ml-[7.5rem] pt-[6.3rem] mr-[8.9rem] xs:mx-10'>
+          <h2 className='text-[#000000] text-[1.875rem] font-medium tracking-[0.0375rem]'>Recommended for you</h2>
+          <h3 className='text-[#49BBBD] text-[1.25rem] font-bold hidden md:block'>See all</h3>
+        </div>
+        <Cards />
+      </div>
+
+      {/* Classes taught by Real Creator */}
+      <div className='font-poppins ml-[142px] mt-[90px] mr-[135px]'>
+        <div className='flex justify-between'>
+          <h2 className='text-[#000000] text-[30px] font-medium '> Classes tought by real creators</h2>
+          <h4 className='text-[#49BBBD] text-[20px] font-bold'> See all</h4>
+        </div>
+        <div className='mt-[188px] mb-[80px]'>
+          <div className='bg-[#fff] flex flex-col gap-5 justify-center items-center w-[516px] h-[303px] creatorShadow'>
+            <Image src={creator1} alt='creator' className='-mt-36' />
+            <h2 className='text-[#252641] text-[24px] font-medium'>Jane Cooper</h2>
+            <p className='text-[#696984] text-[18px] text-center w-[85%] '>Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
+          </div>
 
         </div>
-
       </div>
-    </div>
-
-    {/*  Recommended for you*/}
-    <div className='bg-[#9DCCFF]/[0.2] font-poppins'>
-      <div className='flex justify-between items-center ml-[7.5rem] pt-[6.3rem] mr-[8.9rem] xs:mx-10'>
-        <h2 className='text-[#000000] text-[1.875rem] font-medium tracking-[0.0375rem]'>Recommended for you</h2>
-        <h3 className='text-[#49BBBD] text-[1.25rem] font-bold hidden md:block'>See all</h3>
-      </div>
-      <Cards/>
-    </div>
 
 
-    {/* What Our Student have to say */}
-    <div className="bg-[#9DCCFF] bg-opacity-20 pb-[80px] font-poppins">
+      {/* What Our Student have to say */}
+      <div className="bg-[#9DCCFF] bg-opacity-20 pb-[80px] font-poppins">
         <div className="xl:mx-28 lg:mx-16 2xl:mx-[139px]  mx-6">
           <p className="lg:text-3xl text-2xl font-semibold py-[70px]">
             What our students have to say
           </p>
           <div className="flex flex-col  lg:flex-row justify-between bg-white  rounded-[40px] p-12  2xl:h-[629px]">
-          <Image src={student} alt="student"/>
+            <Image src={student} alt="student" />
             <div className="lg:w-1/2 flex flex-col justify-center">
               <p className="lg:text-3xl font-bold mb-[31px]">Savannah Nguyen</p>
 
@@ -183,25 +200,25 @@ function page() {
               </p>
 
               <div className="flex gap-[25px]">
-                <Image src={twitter} alt='twitter'/>
-                <Image src={facebook} alt='facebook'/>
-                <Image src={instagram} alt='instagram'/>
+                <Image src={twitter} alt='twitter' />
+                <Image src={facebook} alt='facebook' />
+                <Image src={instagram} alt='instagram' />
               </div>
             </div>
 
             <div className="flex xs:flex-wrap xs:mt-10 lg:flex-col gap-[25px] items-end justify-end">
-              <Image src={profile1} alt='Profile'/>
-              <Image src={profile2} alt='Profile'/>
-              <Image src={profile3} alt='Profile'/>
-              <Image src={profile4} alt='Profile'/>
-              
+              <Image src={profile1} alt='Profile' />
+              <Image src={profile2} alt='Profile' />
+              <Image src={profile3} alt='Profile' />
+              <Image src={profile4} alt='Profile' />
+
             </div>
           </div>
         </div>
       </div>
 
-    {/* top */}
-    <div className='pb-16 font-poppins'>
+      {/* top */}
+      <div className='pb-16 font-poppins'>
         <div className="mx-6 md:mx-16 lg:ml-[120px] 2xl:mt-[10rem] lg:mt-[5rem]">
           <div className="flex justify-between">
             <div className="font-medium text-xl md:text-2xl xl:text-3xl mb-16">
@@ -241,7 +258,7 @@ function page() {
                     Lorem ipsum dolor
                   </h4>
                   <p className=" text-xl text-[#fff] font-medium leading-[36px] tracking-[0.4px] sm:w-[19.6rem]">
-                  Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor <br />
+                    Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor <br />
                     Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor
                   </p>
                 </div>
@@ -259,7 +276,7 @@ function page() {
                     Lorem ipsum dolor
                   </h4>
                   <p className=" text-xl text-[#fff] font-medium leading-[36px] tracking-[0.4px] sm:w-[19.6rem]">
-                  Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor <br />
+                    Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor <br />
                     Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor
                   </p>
                 </div>
@@ -269,8 +286,8 @@ function page() {
         </div>
       </div>
 
-    {/* Footer */}
-    <Footer/>
+      {/* Footer */}
+      <Footer />
     </>
   )
 }
