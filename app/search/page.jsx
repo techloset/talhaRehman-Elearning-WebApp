@@ -13,8 +13,38 @@ import facebook from '@/public/images/searchFacebook.svg'
 import instagram from '@/public/images/seacrhInstagram.svg'
 import searchMeetings from '@/public/images/searchMeeting.svg'
 import creator1 from '@/public/images/creator1.svg'
+import creator2 from '@/public/images/creator2.svg'
+import creator3 from '@/public/images/creator3.svg'
 
 function page() {
+  const creator = [
+    {
+      img:creator1,
+      name:"Jane Cooper"
+    },
+    {
+      img:creator2,
+      name:"Adam"
+    },
+    {
+      img:creator3,
+      name:"Tomara"
+    },
+    {
+      img:creator1,
+      name:"Jane Cooper"
+    },
+    {
+      img:creator1,
+      name:"Jane Cooper"
+    },
+    {
+      img:creator1,
+      name:"Jane Cooper"
+    },
+  ]
+  
+  
   return (
     <>
       {/* Header */}
@@ -161,17 +191,17 @@ function page() {
       </div>
 
       {/* Classes taught by Real Creator */}
-      <div className='font-poppins ml-[142px] mt-[90px] mr-[135px]'>
+      <div className='font-poppins lg:ml-[142px] mt-[90px] lg:mr-[135px] ml-5'>
         <div className='flex justify-between'>
           <h2 className='text-[#000000] text-[30px] font-medium '> Classes tought by real creators</h2>
-          <h4 className='text-[#49BBBD] text-[20px] font-bold'> See all</h4>
+          <h4 className='text-[#49BBBD] text-[20px] font-bold xs:hidden'> See all</h4>
         </div>
-        <div className='mt-[188px] mb-[80px]'>
-          <div className='bg-[#fff] flex flex-col gap-5 justify-center items-center w-[516px] h-[303px] creatorShadow'>
-            <Image src={creator1} alt='creator' className='-mt-36' />
-            <h2 className='text-[#252641] text-[24px] font-medium'>Jane Cooper</h2>
+        <div className='mt-[188px] mb-[80px] flex flex-wrap  gap-10 '>
+        {creator.map((info,index)=>(  <div className={`bg-[#fff] flex xs:mt-48 flex-col gap-5 justify-center items-center w-[516px] h-[303px] creatorShadow ${index > 2 ? 'mt-[186px]' : 'mt-[90px]'} `}>
+            <Image src={info.img} alt='creator' className='-mt-36' />
+            <h2 className='text-[#252641] text-[24px] font-medium'>{info.name}</h2>
             <p className='text-[#696984] text-[18px] text-center w-[85%] '>Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor</p>
-          </div>
+          </div>))}
 
         </div>
       </div>
