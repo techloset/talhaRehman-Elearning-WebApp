@@ -37,7 +37,7 @@ function page() {
       {/* Header */}
       <Header />
 
-      <div className='mt-[7.41rem] xs:mt-[3rem]'>
+      <div className='mt-[5.41rem] xs:mt-[3rem]'>
         <h1 className='text-[#49BBBD] text-[4rem] font-extrabold tracking-[-0.0625rem] text-center xs:text-[3rem]'>Affordable pricing</h1>
         <div className='mt-[4.81rem] 2xl:mx-[23.4rem]'>
           <div className="flex justify-between flex-wrap lg:flex-nowrap gap-7">
@@ -48,7 +48,7 @@ function page() {
               </p>
 
               <h3 className="mb-6 mt-4 text-5xl font-bold  font-['Inter',sans-serif]">
-                Free <span className="text-xs font-bold ">/FOREVER</span>
+                Free <span className="text-xs font-extrabold uppercase tracking-[2.5px]">/FOREVER</span>
               </h3>
 
               <ul className="mb-8 space-y-4 text-left font-['Inter',sans-serif]">
@@ -85,7 +85,7 @@ function page() {
               </div>
 
               <h3 className="mb-6 mt-4 text-5xl font-bold">
-                $24 <span className="text-xs">/MONTH</span>
+                $24 <span className="text-xs uppercase tracking-[2.5px] font-extrabold">/MONTH</span>
               </h3>
 
               <ul className="mb-8 space-y-4 text-left">
@@ -126,7 +126,7 @@ function page() {
               </div>
 
               <h3 className="mb-6 mt-4 text-5xl font-bold">
-                $12 <span className="text-xs">/EDITOR</span>
+                $12 <span className="text-xs uppercase tracking-[2.5px] font-extrabold">/EDITOR</span>
               </h3>
 
               <ul className="mb-8 space-y-4 text-left">
@@ -178,7 +178,7 @@ function page() {
 
       {/*  */}
       <div className='mt-28 '>
-        <section className="mx-6 xl:mx-[101px]  ">
+        <section className="mx-6 2xl:ml-[142px] 2xl:mr-[129px] ">
           <h1 className="text-center text-xl sm:text-2xl lg:text-4xl font-semibold font-['Inter',sans-serif]">
             Online coaching lessons for remote learning
           </h1>
@@ -196,7 +196,7 @@ function page() {
                   <Image src={arrowDown} alt="arrow down" />
                 </div>
                 <div className="p-4 ">
-                  <p className="text-[#696984] max-w-[1634px] tracking-wide text-sm leading-[180%]">
+                  <p className="text-[#696984] max-w-[1570px] tracking-wide text-sm leading-[180%]">
                     {question.answer}
                   </p>
                 </div>

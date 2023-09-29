@@ -41,7 +41,7 @@ function LastestNews() {
         </p>
       </div>
 
-      <div className="grid grid-cols-12 xl:py-5 xl:gap-4 xl:mx-4 xs:hidden 2xl:ml-[12.5rem] lg:ml-[6rem] mt-24 flex-col lg:flex-row pb-[8rem] font-poppins">
+      <div className="grid grid-cols-12 xl:py-5 2xl:pb-[115px] xl:gap-4 xl:mx-4 xs:hidden 2xl:ml-[12.5rem] lg:ml-[6rem] mt-24 flex-col lg:flex-row pb-[8rem] font-poppins">
         <div class="col-span-12 xl:col-span-5 mx-auto xl:mx-0">
             <Image src={LatestNewsBig} alt='News'/>
             <div className='mt-4'>
@@ -71,7 +71,7 @@ function LastestNews() {
                     <button className={'text-[#fff] text-[1.125rem] tracking-[0.02254rem] bg-[#49BBBD] rounded-[5rem] p-2 px-3 top-[70%] left-[70%] absolute flex justify-center items-center'} style={{ width: index === 0 ? '200px' : '100px' , left: index ===0 ? '25%' : '55%' }}>{info.btn}</button>
                 
                 </div>
-                <div>
+                <div className='ml-[30px]'>
                     <h3 className='text-[#252641] text-[1.375rem] font-medium leading-[2.475rem] w-[30rem]'>{info.h1}</h3>
                     <h4 className='mt-4 text-[#696984] text-[1.25rem] leading-[2.25rem] tracking-[0.025rem] w-[29rem]'>{info.h2}</h4>
                 </div>

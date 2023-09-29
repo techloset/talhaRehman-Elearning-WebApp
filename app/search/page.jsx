@@ -215,7 +215,7 @@ function page() {
           </p>
           <div className="flex flex-col  lg:flex-row justify-between bg-white  rounded-[40px] p-12  2xl:h-[629px]">
             <Image src={student} alt="student" />
-            <div className="lg:w-1/2 flex flex-col justify-center">
+            <div className="lg:w-1/2 flex flex-col justify-center ml-24">
               <p className="lg:text-3xl font-bold mb-[31px]">Savannah Nguyen</p>
 
               <p className="lg:text-2xl mb-[19px]">tanya.hill@example.com</p>
@@ -236,7 +236,7 @@ function page() {
               </div>
             </div>
 
-            <div className="flex xs:flex-wrap xs:mt-10 lg:flex-col gap-[25px] items-end justify-end">
+            <div className="flex xs:flex-wrap xs:mt-10 lg:flex-col gap-[28px] 2xl:mr-16 items-end justify-end">
               <Image src={profile1} alt='Profile' />
               <Image src={profile2} alt='Profile' />
               <Image src={profile3} alt='Profile' />

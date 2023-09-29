@@ -27,7 +27,7 @@ function Cards() {
     ]
   return (
     <>
-       <div className='md:ml-[7.5rem] 2xl:ml-[139px] xs:ml-2 justify-center md:justify-normal mt-[3.13rem]  flex flex-wrap  gap-[3.12rem]'>
+       <div className='md:ml-[7.5rem] 2xl:ml-[139px] xs:ml-2 justify-center 2xl:justify-normal mt-[3.13rem]  flex flex-wrap  gap-[3.12rem]'>
                {marketArticle.map((info)=>(  <div className='bg-[#fff] flex  flex-col articleShadow w-[23.375rem] xs:w-[20rem] '>
                <Image src={info.mainImg}  alt='article img' className='mt-[1.25rem] sm:ml-[1.31rem] xs:ml-6 sm:mr-[1.13rem] xs:w-[18rem]'/>
                         <div className='flex justify-between items-center mt-[1.31rem] ml-[1.69rem]'>

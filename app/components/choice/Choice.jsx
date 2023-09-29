@@ -209,7 +209,7 @@ function Choice() {
 
                   <h1 className="font-bold text-3xl ">{item.title}</h1>
 
-                  <p className="text-[#696984] text-lg">{item.description}</p>
+                  <p className="text-[#696984] text-lg tracking-[0.36px] text-center xl:px-[49px]">{item.description}</p>
                 </div>
               );
             })}

@@ -33,12 +33,12 @@ function Articles() {
     ]
     return (
         <>
-            <div className='xl:mx-16 font-poppins'> 
+            <div className='xl:mx-16 font-poppins mx-3'> 
                 <div className='flex  justify-between 2xl:ml-[7.5rem]  pt-[5.81rem] mr-[5.56rem]'>
                     <h2 className='text-[#000000] text-[1.875rem] font-medium tracking-[0.0375rem] xs:w-[90%]'>Marketing Articles</h2>
                     <p className='text-[#49BBBD] text-[1.25rem] font-bold xs:hidden'>See all</p>
                 </div>
-                <div className='2xl:ml-[7.5rem] mt-[3.13rem] pb-[10.69rem] flex flex-wrap gap-[3.12rem]'>
+                <div className='2xl:ml-[7.5rem] mt-[3.13rem] pb-[10.69rem]  flex flex-wrap justify-center 2xl:justify-normal gap-[3.12rem]'>
                {marketArticle.map((info)=>(  <div className='bg-[#fff] flex flex-col articleShadow w-[23.375rem] xs:w-[19rem] '>
                         {info.mainImg}
                         <div className='flex justify-between items-center mt-[1.31rem] ml-[1.69rem]'>

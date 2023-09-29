@@ -129,10 +129,10 @@ function HomeHeader() {
         <main className="xl:pt-[15.06rem] font-poppins xs:pt-10 pt-[7rem] 2xl:ml-[8.75rem] lg:ml-20 grid xl:grid-cols-2 grid-cols-1 justify-center pb-[23.69rem] ">
           <div className='xs:mx-8 sm:mx-12 md:mx-16 lg:mx-0'>
             <h1 className="font-bold text-[3.375rem] leading-normal text-[#fff] w-[42.5625rem] xs:w-[20rem]"><span className="text-[#F48C06]">Studying</span> Online is now much easier</h1>
-            <p className="text-[#fff] text-2xl font-normal leading-[2.4rem] w-[32.6875rem] xs:w-[90%] mt-[2.12rem]">TOTC is an interesting platform that will teach you in more an interactive way</p>
+            <p className="text-[#fff] text-2xl font-normal leading-[2.4rem] w-[34.6875rem] xs:w-[90%] mt-[2.12rem]">TOTC is an interesting platform that will teach you in more an interactive way</p>
             <div className="mt-[3.25rem] flex xs:flex-wrap">
-              <button className="text-[#FFFFFF] text-[1.5rem] font-semibold leading-normal w-[13.75rem] h-[5rem] rounded-[5rem] shadow-[0px 20px 24px 0px rgba(0, 0, 0, 0.03)] bg-[rgba(255,255,255,0.30)] ">Join for free</button>
-              <div className="flex items-center -mt-10 -ml-8 xs:mt-10 ">
+              <button className="text-[#FFFFFF] text-[1.5rem] font-semibold leading-normal 2xl:mr-[40px] w-[13.75rem] h-[5rem] rounded-[5rem] shadow-[0px 20px 24px 0px rgba(0, 0, 0, 0.03)] bg-[rgba(255,255,255,0.30)] ">Join for free</button>
+              <div className="flex items-center -mt-10 -ml-12 xs:mt-10 ">
                 <Image src={watch} alt="Watch How it work " className="" />
                 <p className="text-[#252641] text-2xl leading-normal font-normal -ml-7 -mt-8 ">Watch how it works</p>
               </div>
@@ -140,7 +140,7 @@ function HomeHeader() {
           </div>
           <div className="relative flex justify-center xs:mt-28">
             <Image src={headerPromotion} alt="Promotion" className="absolute top-0 xl:-left-24 z-10" />
-            <Image src={teengergirl} alt="Promotion" className="absolute z-0 -top-[10.5rem] overflow-y-hidden" />
+            <Image src={teengergirl} alt="Promotion" className="absolute z-0 -top-[10.5rem] overflow-hidden " />
 
           </div>
         </main>
