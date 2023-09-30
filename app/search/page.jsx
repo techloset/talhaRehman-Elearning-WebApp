@@ -70,7 +70,7 @@ function page() {
 
             <select className="block mx-auto xl:mx-0 text-center font-semibold w-fit text-2xl border-r-[12px] border-transparent p-[18px] border border-gray-300 xl:h-[73px] bg-white rounded-[10px] shadow-sm">
               <option value="" className="">
-                Subject 1
+                Subject 
               </option>
               <option value="" className="">
                 Subject2
@@ -82,7 +82,7 @@ function page() {
 
             <select className="block mx-auto xl:mx-0 text-center font-semibold w-fit text-2xl border-r-[12px] border-transparent p-[18px] border border-gray-300 xl:h-[73px] bg-white rounded-[10px] shadow-sm">
               <option value="" className="">
-                Partner 1
+                Partner 
               </option>
               <option value="" className="">
                 Partner 2
@@ -94,7 +94,7 @@ function page() {
 
             <select className="block mx-auto xl:mx-0 text-center font-semibold w-fit text-2xl border-r-[12px] border-transparent p-[18px] border border-gray-300 xl:h-[73px] bg-white rounded-[10px] shadow-sm">
               <option value="" className="">
-                Program 1
+                Program 
               </option>
               <option value="" className="">
                 Program 2
@@ -106,7 +106,7 @@ function page() {
 
             <select className="block mx-auto xl:mx-0 text-center font-semibold w-fit text-2xl border-r-[12px] border-transparent p-[18px] border border-gray-300 xl:h-[73px] bg-white rounded-[10px] shadow-sm">
               <option value="" className="">
-                Language 1
+                Language 
               </option>
               <option value="" className="">
                 Language 2
@@ -118,7 +118,7 @@ function page() {
 
             <select className="block mx-auto xl:mx-0 text-center font-semibold w-fit text-2xl border-r-[12px] border-transparent p-[18px] border border-gray-300 xl:h-[73px] bg-white rounded-[10px] shadow-sm">
               <option value="" className="">
-                Availability 1
+                Availability 
               </option>
               <option value="" className="">
                 Availability 2
@@ -131,7 +131,7 @@ function page() {
 
             <select className="block mx-auto xl:mx-0 text-center font-semibold w-fit text-2xl border-r-[12px] border-transparent p-[18px] border border-gray-300 xl:h-[73px] bg-white rounded-[10px] shadow-sm">
               <option value="" className="">
-                Learning Type 1
+                Learning Type 
               </option>
               <option value="" className="">
                 Learning Type 2
