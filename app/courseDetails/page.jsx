@@ -24,10 +24,10 @@ function page() {
     </div>
     {/*  */}
     <Overview/>
-    <div className='bg-[#9DCCFF]/[0.2] pb-[90px]'>
+    <div className='bg-[#9DCCFF]/[0.2] pb-[90px] overflow-x-hidden'>
       <div className='flex justify-between items-center ml-[7.5rem] pt-[6.3rem] mr-[8.9rem]'>
         <h2 className='text-[#000000] text-[1.875rem] font-medium tracking-[0.0375rem]'>Marketing Articles</h2>
-        <h3 className='text-[#49BBBD] text-[1.25rem] font-bold '>See all</h3>
+        <h3 className='text-[#49BBBD] text-[1.25rem] font-bold xs:hidden'>See all</h3>
       </div>
       <Cards/>
     </div>

@@ -7,7 +7,7 @@ import Link from 'next/link'
 function Overview() {
   return (
     <>
-     <div className="md:mx-28 mx-6 flex xl:flex-row flex-col gap-8 pb-[100px] justify-between font-poppins">
+     <div className="md:mx-28 mx-6 flex xl:flex-row flex-col gap-8 pb-[100px] justify-between font-poppins overflow-x-hidden">
         <div className="xl:w-[55%] ">
           <div className="flex md:flex-row flex-col justify-between gap-4 mt-[59px] mb-[83px] text-xl">
             <button className=" bg-[#0000001A] mt-3 rounded-xl w-[200px] h-[63px] mx-auto">
