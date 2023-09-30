@@ -12,16 +12,16 @@ import featurePic4 from '../../../public/images/FeaturePic4.svg'
 function OurFeatures() {
     return (
         <>
-            <div className='pt-[11.31rem]  font-poppins'>
+            <div className='pt-[11.31rem] overflow-hidden  font-poppins'>
                 <h2 className='text-[2.25rem] font-bold leading-[4.05rem] text-[#2F327D] text-center'>Our <span className='text-[#00CBB8]'> Features</span></h2>
                 <p className='text-[1.5rem] text-[#696984] text-center font-normal leading-[2.7rem] mt-[1.25rem]'>This very extraordinary feature, can make learning activities more efficient</p>
                 <div className='2xl:ml-[10.6rem] xl:ml-12 mt-[11rem] '>
-                    <div className='grid grid-cols-12 '>
+                    <div className='grid grid-cols-12 xs:overflow-hidden'>
                         <div className='relative xl:col-span-7 col-span-12 lg:left-[10%] left-4 xl:left-0'>
                             <div className='absolute w-[8.75rem] h-[8.75rem] rounded-full bg-[#33EFA0] -top-20 left-16'></div>
                             <div className='absolute w-[1.875rem] h-[1.875rem] rounded-full bg-[#33D9EF] -top-28 left-48'></div>
                             <div className='absolute w-[4.75rem] h-[4.75rem] rounded-full bg-[#33EFA0] -top-10 left-20 blur-2xl z-10'></div>
-                            <Image src={main} alt="Main Image" className='absolute' />
+                            <Image src={main} alt="Main Image" className='absolute xs:w-[100%] xs:h-[80vh]' />
                         </div>
                         <div className='xl:col-span-5 col-span-12 md:mt-[40rem] mt-[25rem] xl:mt-0 mx-auto xl:mx-0 2xl:-ml-3 '>
                             <h2 className='text-[2.5rem] font-semibold leading-[4rem] text-[#2F327D] lg:w-[33.8rem] xs:w-[85%] xs:mx-5  '>A <span className='text-[#00CBB8]'> user interface </span> designed for the classroom</h2>
@@ -66,7 +66,7 @@ function OurFeatures() {
                             
                             <div className='xl:col-span-4 col-span-12 mx-auto xl:mx-0'>
                                 <h2 className='text-[2.5rem] font-semibold leading-[4rem] text-[#2F327D] sm:ml-24 2xl:ml-0 w-[30rem] xs:w-[90%] mt-48 xs:mt-16'><span className='text-[#00CBB8]'>Class Management </span>Tools for Educators</h2>
-                                <p className='text-[#696984] text-[1.375rem] leading-[2.475rem] tracking-[0.0275rem] w-[42rem] mt-[1.25rem] 2xl:ml-0 sm:ml-24 xs:w-[90%]'>Class provides tools to help run and manage the class such as Class Roster, Attendance, and more. With the Gradebook, teachers can review and grade tests and quizzes in real-time.</p>
+                                <p className='text-[#696984] text-[1.375rem] leading-[2.475rem] tracking-[0.0275rem] lg:w-[42rem] w-[85%] mt-[1.25rem] 2xl:ml-0 sm:ml-24 xs:w-[90%]'>Class provides tools to help run and manage the class such as Class Roster, Attendance, and more. With the Gradebook, teachers can review and grade tests and quizzes in real-time.</p>
                             </div>
                             <div className='xl:col-span-8 col-span-12 mx-auto xl:mx-0 2xl:ml-12'> <Image src={featurePic3} alt="Pic of Learning Girl" /> </div>
 
