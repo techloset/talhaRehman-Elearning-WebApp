@@ -33,7 +33,7 @@ function page() {
     </div>
 
       {/* Everthing Physical ClassRoom */}
-      <div className='2xl:pl-[13.19rem] 2xl:pb-[4rem] xs:mx-3 xl:ml-20 2xl:ml-0 pt-[10rem]  2xl:pr-[12.6rem] grid xl:grid-cols-2 grid-cols-1  justify-center lg:justify-normal  font-poppins'>
+      <div className='2xl:pl-[13.19rem] 2xl:pb-[4rem] xs:mx-3 xl:ml-20 2xl:ml-0 pt-[10rem] overflow-hidden 2xl:pr-[12.6rem] grid xl:grid-cols-2 grid-cols-1  justify-center lg:justify-normal  font-poppins'>
             <div className='relative  mx-auto xl:mx-0 xl:left-0'>
                 <Image src={ellipse1} alt="green circle" className='absolute top-10 -left-6 -z-10' />
                 <Image src={ellipse2} alt="green circle" className='absolute top-[59%] left-[92%] -z-10' />
