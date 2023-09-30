@@ -22,7 +22,7 @@ function Totc() {
         </div>
 
         {/* Everthing Physical ClassRoom */}
-        <div className='2xl:pl-[13.19rem] xs:mx-3 xl:ml-20 2xl:ml-0 pt-[10rem] 2xl:pr-[12.6rem] grid xl:grid-cols-2 grid-cols-1  justify-center  font-poppins'>
+        <div className='2xl:pl-[13.19rem] xs:mx-3 xl:ml-20 2xl:ml-0 pt-[10rem] 2xl:pr-[12.6rem] grid xl:grid-cols-2 grid-cols-1  justify-center lg:justify-normal  font-poppins'>
             <div className='relative lg:left-[20%] mx-auto xl:mx-0 xl:left-0'>
                 <Image src={ellipse1} alt="green circle" className='absolute top-10 -left-6 -z-10' />
                 <Image src={ellipse2} alt="green circle" className='absolute top-[59%] left-[92%] -z-10' />
@@ -32,7 +32,7 @@ function Totc() {
             </div>
             <div className='relative mt-10 xl:mt-0 lg:left-[20%] mx-auto xl:mx-0 xl:left-10  '>
                 <div className='w-[8.625rem] h-[8.625rem] rounded-[1.25rem] bg-[#23BDEE] absolute -z-10 -left-5 -top-5'> </div>
-                <div className='w-[14.4375rem] h-[14.4375rem] rounded-[1.25rem] bg-[#33EFA0] overflow-visible absolute -z-10 left-[31rem] top-[16.6rem]'> </div>
+                <div className='w-[14.4375rem] h-[14.4375rem] rounded-[1.25rem] bg-[#33EFA0] 2xl:overflow-visible hidden lg:block absolute -z-10 left-[31rem] top-[16.6rem]'> </div>
                 <Image src={classRoom} alt="Class Video"/>
             </div>
         </div>

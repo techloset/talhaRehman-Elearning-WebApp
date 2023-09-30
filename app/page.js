@@ -11,7 +11,7 @@ import HomeHeader from "./components/homeHeader/HomeHeader";
 
 export default function Home() {
   return (
-    <>
+    <div className="w-[100%]">
 
       <HomeHeader/>
       {/* Our Success */}
@@ -31,6 +31,6 @@ export default function Home() {
 
       {/* Footer */}
       <Footer/>
-    </>
+    </div>
   )
 }
