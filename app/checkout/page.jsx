@@ -156,10 +156,10 @@ function page() {
             </div>
           </div>
 
-          <hr className=" bg-[#5B5B5B] h-[0.5px] my-[11px]" />
+          <hr className=" bg-[#5B5B5B] h-[0.5px] my-[11px] font-poppins" />
 
           <div className="flex justify-between mt-3 text-[#5B5B5B] font-semibold text-xl tracking-[0.4] leading-[180%] ">
-            <p>Subtotal</p>
+            <p className='text-[#5B5B5B] text-xl font-semibold'>Subtotal</p>
             <p>$51.38</p>
           </div>
 

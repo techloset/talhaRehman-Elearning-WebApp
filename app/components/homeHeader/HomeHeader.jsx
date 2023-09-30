@@ -138,7 +138,7 @@ function HomeHeader() {
               </div>
             </div>
           </div>
-          <div className="relative flex justify-center xs:mt-28">
+          <div className="relative flex justify-center xs:mt-28 ">
             <Image src={headerPromotion} alt="Promotion" className="absolute top-0 xl:-left-24 z-10" />
             <Image src={teengergirl} alt="Promotion" className="absolute z-0 -top-[10.5rem] overflow-hidden " />
 

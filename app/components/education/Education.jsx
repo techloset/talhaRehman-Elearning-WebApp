@@ -3,12 +3,12 @@ import React from 'react'
 function Education() {
     return (
         <>
-            <div className="mx-6 md:mx-16 lg:mx-28 2xl:mt-[10rem] lg:mt-[5rem]">
+            <div className="mx-6 2xl:ml-[172px] 2xl:mr-[80px] md:mx-16 lg:mx-28 2xl:mt-[10rem] lg:mt-[5rem]">
                 <div className="flex justify-between">
                     <div className="font-medium text-xl md:text-2xl xl:text-3xl mb-16">
                         Top Education offers and deals are listed here
                     </div>
-                    <div className="text-[#49BBBD] text-[20px] font-bold hidden md:block">
+                    <div className="text-[#49BBBD] text-[20px] font-bold 2xl:mr-10 hidden md:block">
                         See all
                     </div>
                 </div>

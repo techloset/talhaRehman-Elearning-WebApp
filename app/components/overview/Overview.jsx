@@ -7,9 +7,9 @@ import Link from 'next/link'
 function Overview() {
   return (
     <>
-     <div className="md:mx-28 mx-6 flex xl:flex-row flex-col gap-8 pb-[100px] justify-between">
+     <div className="md:mx-28 mx-6 flex xl:flex-row flex-col gap-8 pb-[100px] justify-between font-poppins">
         <div className="xl:w-[55%] ">
-          <div className="flex md:flex-row flex-col justify-between gap-4 mt-[59px] mb-[83px]">
+          <div className="flex md:flex-row flex-col justify-between gap-4 mt-[59px] mb-[83px] text-xl">
             <button className=" bg-[#0000001A] mt-3 rounded-xl w-[200px] h-[63px] mx-auto">
               Overview
             </button>
@@ -350,7 +350,7 @@ function Overview() {
               type="button"
               data-te-ripple-init
               data-te-ripple-color="light"
-              className="mb-2 inline-block rounded-full p-3 text-xs font-medium uppercase leading-normal text-white bg-[#696984] shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+              className="mb-2 inline-block rounded-full  p-3 text-xs font-medium uppercase leading-normal text-white bg-[#696984] shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

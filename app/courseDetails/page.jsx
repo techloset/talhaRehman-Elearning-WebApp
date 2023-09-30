@@ -8,6 +8,7 @@ import classRoom from "@/public/images/classRoomVideo.svg"
 import ellipse1 from "@/public/images/Ellipse12.svg"
 import ellipse2 from "@/public/images/Ellipse13.svg"
 import Education from '../components/education/Education'
+import Footer from '../components/footer/Footer'
 
 
 
@@ -49,6 +50,8 @@ function page() {
 
         {/* Top Education*/}
         <Education/>
+        <div className='pb-[200px]'></div>
+        <Footer/>
     </>
   )
 }

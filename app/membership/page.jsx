@@ -196,7 +196,7 @@ function page() {
                   <Image src={arrowDown} alt="arrow down" />
                 </div>
                 <div className="p-4 ">
-                  <p className="text-[#696984] max-w-[1570px] tracking-wide text-sm leading-[180%]">
+                  <p className="text-[#696984] max-w-[1570dpx] tracking-wide text-sm leading-[180%]">
                     {question.answer}
                   </p>
                 </div>
