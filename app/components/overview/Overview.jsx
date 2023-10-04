@@ -7,7 +7,7 @@ import Link from 'next/link'
 function Overview() {
   return (
     <>
-     <div className="md:mx-28 mx-6 flex xl:flex-row flex-col gap-8 pb-[100px] justify-between font-poppins overflow-x-hidden">
+     <div className="md:mx-28 mx-6 flex xl:flex-row flex-col gap-8 pb-[100px] justify-between font-poppins ">
         <div className="xl:w-[55%] ">
           <div className="flex md:flex-row flex-col justify-between gap-4 mt-[59px] mb-[83px] text-xl">
             <button className=" bg-[#0000001A] mt-3 rounded-xl w-[200px] h-[63px] mx-auto">
@@ -209,7 +209,7 @@ function Overview() {
 
         <div className="p-[30px] rounded-2xl bg-white xl:-mt-[310px] xl:w-[35%] 2xl:max-w-[501px] 2xl:h-[1275px] shadow-2xl xl:shadow-none">
           <Image src={small} alt='small' />
-          <div className="flex justify-between mt-[18px]">
+          <div className="flex justify-between items-center mt-[40px]">
             <p className="font-semibold text-2xl md:text-[45px] ">$49.65</p>
             <del className="font-semibold text-xl  md:text-[28px]  opacity-50 ">
               S99.99

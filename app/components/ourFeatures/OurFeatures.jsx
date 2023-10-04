@@ -27,15 +27,15 @@ function OurFeatures() {
                             <h2 className='text-[2.5rem] font-semibold leading-[4rem] text-[#2F327D] lg:w-[33.8rem] xs:w-[85%] xs:mx-5  '>A <span className='text-[#00CBB8]'> user interface </span> designed for the classroom</h2>
                             <div className='mt-[3.19rem]'>
                                 <div className='flex xs:flex-wrap xs:mx-4 featureBoxShadow' >
-                                    <div className='w-[3.75rem] h-[3.75rem] bg-[#FBFBFB]  rounded-full relative '> <Image src={featureIcon1} alt='Icon' className='absolute translate-x-[-50%] translate-y-[-50%] left-[50%] top-[50%] ' /> </div>
+                                    <div className='w-[3.75rem] h-[3.75rem] bg-[#FBFBFB]  rounded-full relative featureBoxShadow'> <Image src={featureIcon1} alt='Icon' className='absolute translate-x-[-50%] translate-y-[-50%] left-[50%] top-[50%] ' /> </div>
                                     <div className='w-[27.6875rem] xs:w-[90%] sm:ml-[2.62rem]'> <h3 className='text-[#696984] text-[1.375rem] font-normal leading-[2.475rem] tracking-[0.0275rem]'>Teachers don’t get lost in the grid view and have a dedicated Podium space.</h3></div>
                                 </div>
                                 <div className='flex mt-[2.5rem] xs:flex-wrap xs:mx-4 featureBoxShadow'>
-                                    <div className='w-[3.75rem] h-[3.75rem] bg-[#FBFBFB]  rounded-full relative'> <Image src={featureIcon2} alt='Icon' className='absolute translate-x-[-50%] translate-y-[-50%] left-[50%] top-[50%] ' /> </div>
+                                    <div className='w-[3.75rem] h-[3.75rem] bg-[#FBFBFB]  rounded-full relative featureBoxShadow'> <Image src={featureIcon2} alt='Icon' className='absolute translate-x-[-50%] translate-y-[-50%] left-[50%] top-[50%] ' /> </div>
                                     <div className='w-[27.6875rem] xs:w-[90%] sm:ml-[2.62rem]'> <h3 className='text-[#696984] text-[1.375rem] font-normal leading-[2.475rem] tracking-[0.0275rem]'>TA’s and presenters can be moved to the front of the class.</h3></div>
                                 </div>
                                 <div className='flex mt-[2.5rem] xs:flex-wrap xs:mx-4 featureBoxShadow'>
-                                    <div className='w-[3.75rem] h-[3.75rem] bg-[#FBFBFB]  rounded-full relative'> <Image src={featureIcon3} alt='Icon' className='absolute translate-x-[-50%] translate-y-[-50%] left-[50%] top-[50%] ' /> </div>
+                                    <div className='w-[3.75rem] h-[3.75rem] bg-[#FBFBFB]  rounded-full relative featureBoxShadow'> <Image src={featureIcon3} alt='Icon' className='absolute translate-x-[-50%] translate-y-[-50%] left-[50%] top-[50%] ' /> </div>
                                     <div className='w-[27.6875rem] xs:w-[90%] sm:ml-[2.62rem]'> <h3 className='text-[#696984] text-[1.375rem] font-normal leading-[2.475rem] tracking-[0.0275rem]'>Teachers can easily see all students and class data at one time.</h3></div>
                                 </div>
                             </div>

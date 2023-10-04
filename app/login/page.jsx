@@ -6,7 +6,7 @@ import Link from 'next/link';
 function page() {
   return (
    <>
-   <div className='mt-[2.38rem] xs:mt-[133px] xs:pb-[6.44rem] xs:ml-[1.62rem] xs:mr-[1.12rem] lg:ml-[2.56rem] flex flex-wrap xl:flex-nowrap sm:justify-center xl:justify-normal gap-[6.94rem] xs:justify-center lg:mr-[6.94rem] 2xl:justify-center font-poppins'>
+   <div className='mt-[2.38rem] xs:mt-[133px] xs:pb-[6.44rem] xs:ml-[1.62rem] xs:mr-[1.12rem] lg:ml-[2.56rem] flex flex-wrap xl:flex-nowrap sm:justify-center xl:justify-normal gap-[6.1rem] xs:justify-center lg:mr-[6.94rem] 2xl:justify-center font-poppins'>
         <div className='loginPage lg:min-w-[46.0625rem] md:min-w-[40rem] sm:order-2 xl:order-1 sm:hidden md:block xs:hidden'>
             <h2 className='pt-[41.94rem] pl-[4.31rem] text-[#fff] text-[2.3125rem] font-bold'>Lorem Ipsum is simply </h2>
             <p className='pl-[4.31rem] mt-1 text-[#fff] text-[1.5625rem] pb-[4rem] '>Lorem Ipsum is simply </p>
@@ -21,7 +21,7 @@ function page() {
                 <label htmlFor="userPass" className='text-base text-[#000000] mt-[1.87rem]'>Password</label>
                 <input type="password" id='userPass' placeholder='Enter your Password' className='mt-[0.75rem] xs:w-[19.8217rem] xs:h-[3.375rem] bg-[#fff] rounded-[2.5rem] border border-[#49BBBD] active:border-[#49BBBD] pl-[1.94rem] pb-[1rem] pt-[0.94rem] text-[#ACACAC] text-[0.9375rem] font-light' />
                 <Image  src={hidePass} alt='Passworrd hide' className='relative left-[85%] -top-9' />
-                <div className='flex justify-between mt-[1.37rem]'>
+                <div className='flex justify-between mt-[0.4rem]'>
                     <div className='flex items-center gap-1'>
                         <input type="checkbox" id='Remember' />
                         <label htmlFor="Remember" className='text-[0.75rem] font-light text-[#000] '> Rememebr me</label>

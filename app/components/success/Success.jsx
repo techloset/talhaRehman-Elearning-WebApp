@@ -6,7 +6,7 @@ function Success() {
     <div className='mt-[8.37rem]'>
         <div className='xl:w-[46.875rem] mx-10  xl:mx-auto'>
             <h1 className='text-center text-[3rem] font-bold leading-[3.9rem] font-[BuenosBold] '>Our Success</h1>
-            <p className='text-center text-[1.125rem] font-normal leading-[1.8rem] font-[BuenoReg]'>Ornare id fames interdum porttitor nulla turpis etiam. Diam vitae sollicitudin at nec nam et pharetra gravida. Adipiscing a quis ultrices eu ornare tristique vel nisl orci. </p>
+            <p className='text-center text-[1.125rem] font-normal leading-[1.8rem] font-[BuenoReg] 2xl:mt-[16px]'>Ornare id fames interdum porttitor nulla turpis etiam. Diam vitae sollicitudin at nec nam et pharetra gravida. Adipiscing a quis ultrices eu ornare tristique vel nisl orci. </p>
 
         </div>
         <div className='2xl:ml-[12.25rem] 2xl:justify-normal justify-center flex flex-wrap xl:flex-nowrap gap-[5.94rem] text-center mt-[6.31rem] font-[BuenoReg]'>

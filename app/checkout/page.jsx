@@ -12,7 +12,7 @@ function page() {
     <>
       {/* Header */}
       <Header />
-      <div className="flex 2xl:flex-row flex-col gap-8 justify-between mx-6 md:mx-[120px] mt-[90px] mb-[158px] font-poppins">
+      <div className="flex 2xl:flex-row flex-col gap-8 justify-between mx-6 md:mx-[120px] mt-[60px] mb-[158px] font-poppins">
 
         <div className="p-[50px] shadow-xl  2xl:w-[962px] 2xl:h-[909px] rounded-2xl ">
           <h1 className="font-semibold text-2xl md:text-4xl">Checkout</h1>

@@ -49,7 +49,7 @@ function page() {
                         <h2 className='text-[#252641] text-[1.875rem] font-semibold pt-[2.5rem] '>Course Contents</h2>
                         <div className='flex justify-between items-center mt-[1.13rem]'>
                             <h3 className='text-[#49BBBD] text-[0.875rem]  font-medium '>2/5 COMPLETED</h3>
-                            <Image src={meetingCalander} alt="calander" />
+                            <Image src={meetingCalander} alt="calander" className='2xl:mr-7' />
                         </div>
                         <div className='flex xs:flex-wrap xs:gap-4 gap-1 mt-4'>
                             <div className='w-[5.312rem] h-[0.3125rem] bg-[#49BBBD]'></div>

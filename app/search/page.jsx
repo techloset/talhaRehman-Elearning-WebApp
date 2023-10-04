@@ -66,12 +66,12 @@ function page() {
             </div>
           </div>
 
-          <div className="lg:flex hidden   w-11/12 2xl:w-[1319px] flex-wrap 2xl:flex-nowrap justify-center 2xl:justify-between ">
+          <div className="lg:flex hidden   w-11/12 2xl:w-[1319px] gap-3 2xl:gap-0 flex-wrap 2xl:flex-nowrap justify-center 2xl:justify-between ">
 
             <select className="block mx-auto xl:mx-0 text-center font-semibold w-fit text-2xl border-r-[12px] border-transparent p-[18px] border border-gray-300 xl:h-[73px] bg-white rounded-[10px] shadow-sm">
               <option value="" className="">
                 Subject 
-              </option>
+              </option>.
               <option value="" className="">
                 Subject2
               </option>

@@ -51,7 +51,7 @@ function page() {
                 Free <span className="text-xs font-extrabold uppercase tracking-[2.5px]">/FOREVER</span>
               </h3>
 
-              <ul className="mb-8 space-y-4 text-left font-['Inter',sans-serif]">
+              <ul className="mb-8 space-y-6 text-left font-['Inter',sans-serif]">
                 <li className="flex items-center space-x-3">
                   <Image src={tick} alt='tick' />
                   <span>Components-driven system</span>
@@ -88,7 +88,7 @@ function page() {
                 $24 <span className="text-xs uppercase tracking-[2.5px] font-extrabold">/MONTH</span>
               </h3>
 
-              <ul className="mb-8 space-y-4 text-left">
+              <ul className="mb-7 space-y-6 text-left">
                 <li className="flex items-center space-x-3">
                   <Image src={yellowTick} alt="Yelong" />
                   <span>Components-driven system</span>
@@ -113,7 +113,7 @@ function page() {
 
               <button
                 href="#"
-                className=" bg-[#49BBBD] rounded-xl text-white py-[14px]  mt-9  border-2 text-2xl font-['Inter',sans-serif]">
+                className=" bg-[#49BBBD] rounded-xl text-white py-[14px]  mt-1  border-2 text-2xl font-['Inter',sans-serif]">
                 Regular license
               </button>
             </div>
@@ -129,7 +129,7 @@ function page() {
                 $12 <span className="text-xs uppercase tracking-[2.5px] font-extrabold">/EDITOR</span>
               </h3>
 
-              <ul className="mb-8 space-y-4 text-left">
+              <ul className="mb-8 space-y-6 text-left">
                 <li className="flex items-center space-x-3">
                   <Image src={greentick} alt='greentick' />
                   <span>Components-driven system</span>
