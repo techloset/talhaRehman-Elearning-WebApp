@@ -53,14 +53,14 @@ function page() {
           <div className='bg-[#fff] rounded-[22.6875rem] min-w-[22.6875rem] max-h-[22.6875rem] xs:min-w-[18rem]  '>
             <Image src={literatureProfile} alt='Hello' className='pt-[1rem] pl-[0.81rem] ' />
           </div>
-          <div className='bg-[rgb(255,255,255)]/[0.80] rounded-[1.25rem] mt-4 lg:pl-[1.8rem] xl:pl-[3.13rem] pr-[2.5rem]  w-[74.9375rem] lg:h-[24rem] xl:h-[21.75rem] ml-[2.13rem] xs:ml-2 xs:pl-0'>
+          <div className='bg-[rgb(255,255,255)]/[0.80] rounded-[1.25rem] mt-4 lg:pl-[1.8rem] xl:pl-[3.13rem] pr-[2.5rem]  w-[74.9375rem] lg:h-[24rem] xl:h-[21.75rem] ml-[2.13rem] xs:ml-2 xs:pl-0 2xl:mr-[33px] sm:mr-[19px]'>
             <div className='flex xs:flex-wrap xs:my-5 justify-between pt-[3rem] items-center'>
               <h2 className='text-[#000000] text-[1.875rem] font-medium tracking-[0.0375rem] leading-normal'>John Anderson</h2>
               <button className='text-[#fff] text-[1.5rem] font-bold bg-[#49BBBD] rounded-[0.75rem] w-[11.44769rem] h-[3.9375rem]'>Enroll Now</button>
             </div>
             <p className='text-[rgba(45,52,54,0.70)] text-[1.125rem] leading-[2rem] mt-[0.44rem] font-inter'>Assistant Professor at Mcmaster University</p>
             <p className='text-[#2D3436] text-[1.5625rem] leading-[2rem] mt-[0.94rem] font-inter'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enum ad minim veniam, quis nostrud</p>
-            <div className='flex xs:flex-wrap justify-around mt-[1.56rem] font-inter'>
+            <div className='flex xs:flex-wrap justify-between 2xl:mr-[12px] mt-[1.56rem] font-inter'>
               <div className='flex items-center gap-1 font-inter'>
                 <Image src={start} alt="Start" />
                 <p className='text-[rgba(45,52,54,0.80)] text-[0.9375rem] leading-[2rem]'>4.9 instructor Rating</p>
