@@ -7,6 +7,7 @@ import logo1 from '../../../public/images/logo.svg';
 import watch from '../../../public/images/watch.svg';
 import headerPromotion from '../../../public/images/headerPromotion.svg';
 import teengergirl from '../../../public/images/teengerGirl.svg';
+import curver from "@/public/images/curveimageGirl.png"
 import { useState } from "react";
 
 
@@ -138,11 +139,15 @@ function HomeHeader() {
               </div>
             </div>
           </div>
-          <div className="relative flex justify-center xs:mt-28 ">
+          <div className="relative flex  justify-center xs:mt-28 xl:hidden ">
             <Image src={headerPromotion} alt="Promotion" className="absolute top-0 xl:-left-24 z-10" />
             <Image src={teengergirl} alt="Promotion" className="absolute z-0 -top-[10.5rem] overflow-hidden " />
+          </div>
+          <div className=' relative hidden xl:block '>
+          <Image src={curver} alt="Promotion" className='absolute h-[860px] w-full overflow-hidden -left-24 -top-0'/>
 
           </div>
+          
         </main>
       </header>
     </>

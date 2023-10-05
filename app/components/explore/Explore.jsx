@@ -29,7 +29,7 @@ function Explore() {
        
         <div className="relative z-10 mt-12">
        
-          <div className="grid md:grid-cols-6  lg:grid-cols-12 gap-6">
+          <div className="grid md:grid-cols-6  lg:grid-cols-12 gap-1">
             <div className="book hidden 2xl:block text-center  bg-white  rounded-3xl py-3 px-4  text-white max-w-[105px] max-h-[418px]">
               <div className="bg-green-300 py-6 px-2 h-full rounded-3xl">
                 <p className="try absolute top-[50%] z-50 -mr-16 right-0 text-center text-2xl font-medium">
@@ -114,7 +114,7 @@ function Explore() {
        
         <div className="relative z-10 mt-12">
          
-          <div className="grid md:grid-cols-6  lg:grid-cols-12 gap-6">
+          <div className="grid md:grid-cols-6  lg:grid-cols-12 gap-1">
             <div className="book hidden 2xl:block text-center  bg-white  rounded-3xl py-3 px-4  text-white max-w-[105px] max-h-[418px]">
               <div className="bg-green-300 py-6 px-2 h-full rounded-3xl">
                 <p className="try absolute top-[50%] z-50 -mr-16 right-0 text-center text-2xl font-medium">
@@ -198,7 +198,7 @@ function Explore() {
 
         <div className="relative z-10 mt-12">
       
-          <div className="grid md:grid-cols-6  lg:grid-cols-12 gap-6">
+          <div className="grid md:grid-cols-6  lg:grid-cols-12 gap-1">
             <div className="book hidden 2xl:block text-center  bg-white  rounded-3xl py-3 px-4  text-white max-w-[105px] max-h-[418px]">
               <div className="bg-green-300 py-6 px-2 h-full rounded-3xl">
                 <p className="try absolute top-[50%] z-50 -mr-16 right-0 text-center text-2xl font-medium">

@@ -35,7 +35,7 @@ function Header() {
             <div className="flex items-center  ml-[4.31rem] xl:mr-[7.5rem] lg:ml-14 h-auto">
               <div className='w-[3.9375rem] h-[3.9375rem] rounded-full bg-[#D9D9D9]'><Image src={profileLogo} alt='Profile Pic' /></div>
               <p className='text-[#000] text-[1.125rem] font-medium leading-[0.0225rem] ml-[0.94rem] mr-[0.75rem]'>Lina</p>
-              <div onClick={toggleMenu}> <Image src={arrowdown} alt='down' />
+              <div onClick={toggleMenu}> <Image src={arrowdown} alt='down' className='h-5 w-3'/>
                 {isOpen && (
                   <ul className="flex flex-col items-start justify-start space-y-8 lg:flex lg:space-x-6 lg:space-y-0 ml-8">
                   <Link href='/' className='ml-5'>
