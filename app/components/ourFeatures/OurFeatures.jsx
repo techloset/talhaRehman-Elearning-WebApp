@@ -62,13 +62,13 @@ function OurFeatures() {
                             </div>
 
                         </div>
-                        <div className='grid grid-cols-12 xl:mt-[10rem] 2xl:gap-[9rem]  '>
+                        <div className='grid grid-cols-12  xl:mt-[10rem] 2xl:gap-[9rem]  '>
                             
                             <div className='xl:col-span-4 col-span-12 mx-auto xl:mx-0'>
-                                <h2 className='text-[2.5rem] font-semibold leading-[4rem] text-[#2F327D] sm:ml-5 2xl:ml-0 w-[30rem] xs:w-[90%] mt-48 xs:mt-16'><span className='text-[#00CBB8]'>Class Management </span>Tools for Educators</h2>
-                                <p className='text-[#696984] text-[1.375rem] leading-[2.475rem] tracking-[0.0275rem] lg:w-[42rem] w-[85%] mt-[1.25rem] 2xl:ml-0 sm:ml-5 xs:w-[90%]'>Class provides tools to help run and manage the class such as Class Roster, Attendance, and more. With the Gradebook, teachers can review and grade tests and quizzes in real-time.</p>
+                                <h2 className='text-[2.5rem] font-semibold leading-[4rem] text-[#2F327D]  2xl:ml-0 w-[30rem] xs:w-[90%] mx-auto  mt-48 xs:mt-16'><span className='text-[#00CBB8]'>Class Management </span>Tools for Educators</h2>
+                                <p className='text-[#696984] text-[1.375rem] leading-[2.475rem] tracking-[0.0275rem] 2xl:w-[42rem] xl:w-[120%] md:w-[50%]  w-[85%] mt-[1.25rem] 2xl:ml-0 mx-auto xs:w-[90%]'>Class provides tools to help run and manage the class such as Class Roster, Attendance, and more. With the Gradebook, teachers can review and grade tests and quizzes in real-time.</p>
                             </div>
-                            <div className='xl:col-span-8 col-span-12 mx-auto xl:ml-12 2xl:ml-12 '> <Image src={featurePic3} alt="Pic of Learning Girl" /> </div>
+                            <div className='xl:col-span-8 col-span-12 mx-auto xl:ml-36 2xl:ml-12 '> <Image src={featurePic3} alt="Pic of Learning Girl" /> </div>
 
                         </div>
                         <div className='grid grid-cols-12 mt-[9rem] '>
