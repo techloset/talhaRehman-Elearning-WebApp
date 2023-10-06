@@ -51,9 +51,9 @@ function page() {
                 </div>
             </div>
             {/* Reading blog List */}
-            <div className='mt-[5rem] sm:ml-[6.87rem] font-poppins'>
-                <h2 className='text-[1.875rem] font-bold text-[rgba(0, 0, 0, 0.80)] '>Reading blog list</h2>
-                <div className='mb-[5rem] mt-[1.62rem] flex flex-wrap justify-center lg:justify-normal gap-5 2xl:gap-0'>
+            <div className='mt-[5rem] 2xl:ml-[6.87rem] font-poppins'>
+                <h2 className='text-[1.875rem] font-bold text-[rgba(0, 0, 0, 0.80)] ml-10 2xl:ml-0'>Reading blog list</h2>
+                <div className='mb-[5rem] mt-[1.62rem] flex flex-wrap justify-center 2xl:justify-normal gap-5 2xl:gap-0'>
                     {blog.map((info) => (<div className='relative sm:mr-[4.75rem]'>
                         {info.img}
                         <div className='w-[14.75rem] absolute h-[3.9375rem] rounded-[0.75rem] flex justify-center items-center bg-[#fff]/[0.70] top-[70%] left-[18%] z-50 text-[1.5rem] text-center font-bold text-[#000]'>{info.title}</div>

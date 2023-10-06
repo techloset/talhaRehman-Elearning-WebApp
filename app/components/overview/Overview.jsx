@@ -170,7 +170,7 @@ function Overview() {
                 Michael Chasen, integrates exclusively...
               </p>
 
-              <hr className="bg-gray-400 h-[2px]" />
+              <hr className="bg-gray-400 h-[2px] " />
             </div>
             <div className="mt-[24px]">
               <div className="flex md:flex-row flex-col justify-between">
@@ -227,15 +227,7 @@ function Overview() {
      <Link href="./checkout">     <button className="bg-[#49BBBD] w-full text-white text-center py-3 my-[30px]  text-[20px]  font-semibold rounded-2xl">
             Buy Now
           </button> </Link>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="442"
-            height="1"
-            viewBox="0 0 442 1"
-            fill="none"
-          >
-            <path d="M0 0.5H442" stroke="#696984" />
-          </svg>
+          <hr className="h-[1px] lg:w-[442px] w-[90%] mx-auto bg-gray-600 mt-[32px]" />
 
           <p className="text-xl md:text-3xl font-semibold mt-[30px]">
             This Course included
@@ -328,7 +320,7 @@ function Overview() {
 
             <p className="font-semibold opacity-50">32 Modules</p>
           </div>
-          <hr className="h-[1px] w-[442px] mx-auto bg-gray-600 mt-[32px]" />
+          <hr className="h-[1px] lg:w-[442px] w-[90%] mx-auto bg-gray-600 mt-[32px]" />
 
           <p className="text-xl md:text-3xl font-semibold mb-[30px] mt-[34px]">
             Training 5 or more people
@@ -339,13 +331,13 @@ function Overview() {
             Michael Chasen, integrates exclusively...
           </p>
 
-          <hr className="h-[1px] w-[442px] mx-auto bg-gray-600 my-[39px]" />
+          <hr className="h-[1px] lg:w-[442px] w-[90%] mx-auto bg-gray-600 my-[39px]" />
 
           <p className="text-xl md:text-3xl font-semibold mb-[53px]">
             Share this course
           </p>
 
-          <div className="flex gap-[25px]">
+          <div className="flex flex-wrap gap-[25px]">
             <button
               type="button"
               data-te-ripple-init

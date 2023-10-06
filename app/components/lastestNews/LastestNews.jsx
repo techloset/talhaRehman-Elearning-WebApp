@@ -10,7 +10,7 @@ function LastestNews() {
    const Cards=[
         {
             id:1,
-            img:<Image src={news1} alt='news1'/>,
+            img:<Image src={news1} alt='news1' />,
             btn:"PRESS RELEASE",
             h1:"Class Technologies Inc. Closes $30 Million Series A Financing to Meet High Demand",
             h2:"Class Technologies Inc., the company that created Class,..."

@@ -139,12 +139,12 @@ function HomeHeader() {
               </div>
             </div>
           </div>
-          <div className="relative flex  justify-center xs:mt-28 xl:hidden ">
+          <div className="relative flex  justify-center xs:mt-28 xl:hidden  ">
             <Image src={headerPromotion} alt="Promotion" className="absolute top-0 xl:-left-24 z-10" />
             <Image src={teengergirl} alt="Promotion" className="absolute z-0 -top-[10.5rem] overflow-hidden " />
           </div>
           <div className=' relative hidden xl:block '>
-          <Image src={curver} alt="Promotion" className='absolute h-[860px] w-full overflow-hidden -left-24 -top-0'/>
+          <Image src={curver} alt="Promotion" className='absolute h-[860px] w-full overflow-hidden 2xl:-left-24 xl:-left-7 -top-0'/>
 
           </div>
           

@@ -72,7 +72,7 @@ function page() {
               </div>
             </div>
             {/* individual */}
-            <div className="flex flex-col p-8 mx-auto 2xl:w-[23.125rem] 2xl:h-[33.5rem] text-gray-900 bg-white rounded-lg border border-gray-100 shadow-xl font-['Inter',sans-serif] ">
+            <div className="flex flex-col p-8 mx-auto 2xl:w-[23.125rem]  text-gray-900 bg-white rounded-lg border border-gray-100 shadow-xl font-['Inter',sans-serif] ">
               <div className="flex justify-between">
                 <div className="flex">
                   <p className="text-[#49BBBD] font-semibold text-xl">
