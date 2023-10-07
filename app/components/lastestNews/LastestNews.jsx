@@ -52,7 +52,7 @@ function LastestNews() {
               Class adds $30 million to its balance sheet for a Zoom-friendly
               edtech solution
             </h5>
-            <p class="mb-4 text-xl text-neutral-600 mt-5 leading-[180%] w-[35rem]">
+            <p class="mb-4 text-xl text-neutral-600 mt-5 leading-[180%] 2xl:w-[35rem] xl:w-[101%] w-[68%]">
               Class, launched less than a year ago by Blackboard co-founder
               Michael Chasen, integrates exclusively...
             </p>
