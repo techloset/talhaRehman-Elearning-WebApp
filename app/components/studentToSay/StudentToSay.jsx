@@ -7,9 +7,9 @@ import right from '../../../public/images/membershipRight.svg'
 function StudentToSay() {
   return (
     <>
-    <div className='bg-[#9DCCFF]/[0.2] xl:pl-[8rem] pl-[3rem] xs:pl-[1rem] pb-[15rem] mt-28 '>
+    <div className='bg-[#9DCCFF]/[0.2] 2xl:pl-[8rem] px-[1rem] 2xl:px-0 xs:pl-[1rem] pb-[15rem] mt-28 '>
         <h2 className='pt-[5rem] text-[2.25rem] text-[#2D3436] xs:w-[95%] pb-[50px]'>What our students have to say</h2>
-        <div className='relative flex flex-wrap xl:justify-normal sm:justify-center gap-7'>
+        <div className='relative flex flex-wrap 2xl:justify-normal sm:justify-center gap-7'>
           <button className='bg-[#49BBBD] rounded-full w-[3.125rem] h-[3.125rem] hidden 2xl:flex justify-center items-center absolute top-[50%] -translate-x-[50%] -translate-y-[50%] '><Image src={left} alt='left'/> </button>
           <div className='xs:mx-auto xs:mt-10'>
             <div className='bg-[#fff] w-[24rem] xs:w-[19rem]  h-[24.68rem] rounded-[1.25rem] flex flex-col  items-center'>

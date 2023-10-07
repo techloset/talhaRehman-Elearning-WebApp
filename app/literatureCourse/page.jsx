@@ -108,9 +108,9 @@ function page() {
         </div>
         <div className='mt-[4.25rem]'>
           <h2 className='text-[#000000] text-[1.875rem] font-medium tracking-[0.0375rem]'>Literature course</h2>
-          <div className='grid 2xl:grid-cols-3 lg:grid-cols-2 gap-[5.31rem] sm:justify-center xs:justify-center lg:justify-normal' >
+          <div className='grid 2xl:grid-cols-3 lg:grid-cols-2 gap-[5.31rem] sm:justify-center xs:justify-center 2xl:justify-normal' >
 
-            {Courses.map((info) => (<div className='literatureCourse lg:w-[31.437rem] w-[30rem] xs:w-[20rem]'>
+            {Courses.map((info) => (<div className='literatureCourse lg:w-[31.437rem] w-[30rem] xs:w-[20rem] mx-auto mt-8 '>
               <div>
                 {info.img}
               </div>
